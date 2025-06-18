@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modellabs\\cimadapter\\importer\\powertransformerimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\importer\\powertransformerimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modellabs\\cimadapter\\importer\\powertransformerconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\importer\\powertransformerconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modellabs\\cimadapter\\cimadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\cimadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modellabs\\cimadapter\\transformandloadreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\transformandloadreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DD11384-2CC1-4EE9-9F4A-02B6FE8759C0}|ModelLabsApp\\ModelLabsApp.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modellabs\\modellabsapp\\modellabsappform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3DD11384-2CC1-4EE9-9F4A-02B6FE8759C0}|ModelLabsApp\\ModelLabsApp.csproj|solutionrelative:modellabsapp\\modellabsappform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DD11384-2CC1-4EE9-9F4A-02B6FE8759C0}|ModelLabsApp\\ModelLabsApp.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modellabs\\modellabsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DD11384-2CC1-4EE9-9F4A-02B6FE8759C0}|ModelLabsApp\\ModelLabsApp.csproj|solutionrelative:modellabsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modellabs\\cimadapter\\manager\\profilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\manager\\profilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modellabs\\common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modellabs\\common\\enumdescs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\enumdescs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modellabs\\common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modellabs\\common\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PowerTransformerConverter.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerConverter.cs",
+              "RelativeDocumentMoniker": "CIMAdapter\\Importer\\PowerTransformerConverter.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerConverter.cs",
+              "RelativeToolTip": "CIMAdapter\\Importer\\PowerTransformerConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:04:34.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModelLabsAppForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\ModelLabsApp\\ModelLabsAppForm.cs",
+              "RelativeDocumentMoniker": "ModelLabsApp\\ModelLabsAppForm.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\ModelLabsApp\\ModelLabsAppForm.cs [Design]",
+              "RelativeToolTip": "ModelLabsApp\\ModelLabsAppForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:02:32.607Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\ModelLabsApp\\Program.cs",
+              "RelativeDocumentMoniker": "ModelLabsApp\\Program.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\ModelLabsApp\\Program.cs",
+              "RelativeToolTip": "ModelLabsApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:02:29.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransformAndLoadReport.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\TransformAndLoadReport.cs",
+              "RelativeDocumentMoniker": "CIMAdapter\\TransformAndLoadReport.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\TransformAndLoadReport.cs",
+              "RelativeToolTip": "CIMAdapter\\TransformAndLoadReport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:58:54.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PowerTransformerImporter.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerImporter.cs",
+              "RelativeDocumentMoniker": "CIMAdapter\\Importer\\PowerTransformerImporter.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerImporter.cs",
+              "RelativeToolTip": "CIMAdapter\\Importer\\PowerTransformerImporter.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAowHEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:56:25.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CIMAdapter.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\CIMAdapter.cs",
+              "RelativeDocumentMoniker": "CIMAdapter\\CIMAdapter.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\CIMAdapter.cs",
+              "RelativeToolTip": "CIMAdapter\\CIMAdapter.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAcwIEAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:55:57.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProfileManager.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\Manager\\ProfileManager.cs",
+              "RelativeDocumentMoniker": "CIMAdapter\\Manager\\ProfileManager.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\Manager\\ProfileManager.cs",
+              "RelativeToolTip": "CIMAdapter\\Manager\\ProfileManager.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:45:47.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ModelDefines.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\ModelDefines.cs",
+              "RelativeDocumentMoniker": "Common\\ModelDefines.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\ModelDefines.cs",
+              "RelativeToolTip": "Common\\ModelDefines.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAAEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:16:59.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ModelResourcesDesc.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\ModelResourcesDesc.cs",
+              "RelativeDocumentMoniker": "Common\\ModelResourcesDesc.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\ModelResourcesDesc.cs",
+              "RelativeToolTip": "Common\\ModelResourcesDesc.cs",
+              "ViewState": "AQIAAFwDAAAAAAAAAAAAAH8DAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:11:21.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EnumDescs.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\EnumDescs.cs",
+              "RelativeDocumentMoniker": "Common\\EnumDescs.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\EnumDescs.cs",
+              "RelativeToolTip": "Common\\EnumDescs.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:08:43.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\Enums.cs",
+              "RelativeDocumentMoniker": "Common\\Enums.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\Enums.cs",
+              "RelativeToolTip": "Common\\Enums.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAxwDoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:02:48.738Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

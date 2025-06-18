@@ -1,0 +1,637 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:msg="http://langdale.com.au/2005/Message#"
+    xmlns:cims="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#"
+    xmlns:j.0="http://iec.ch/TC57/CIM101#"
+    xmlns:uml="http://langdale.com.au/2005/UML#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://iec.ch/TC57/CIM101" > 
+  <rdf:Description rdf:about="#BasicIntervalSchedule">
+    <cims:belongsToCategory rdf:resource="#Package_Core"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Schedule of values at points in time.</rdfs:comment>
+    <rdfs:label>BasicIntervalSchedule</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#BasicIntervalSchedule.startTime">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>The time for the first time point.</rdfs:comment>
+    <rdfs:domain rdf:resource="#BasicIntervalSchedule"/>
+    <rdfs:label>startTime</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#BasicIntervalSchedule.value1Multiplier">
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Multiplier for value1.</rdfs:comment>
+    <rdfs:domain rdf:resource="#BasicIntervalSchedule"/>
+    <rdfs:label>value1Multiplier</rdfs:label>
+    <rdfs:range rdf:resource="#UnitMultiplier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#BasicIntervalSchedule.value1Unit">
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Value1 units of measure.</rdfs:comment>
+    <rdfs:domain rdf:resource="#BasicIntervalSchedule"/>
+    <rdfs:label>value1Unit</rdfs:label>
+    <rdfs:range rdf:resource="#UnitSymbol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#BasicIntervalSchedule.value2Multiplier">
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Multiplier for value2.</rdfs:comment>
+    <rdfs:domain rdf:resource="#BasicIntervalSchedule"/>
+    <rdfs:label>value2Multiplier</rdfs:label>
+    <rdfs:range rdf:resource="#UnitMultiplier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#BasicIntervalSchedule.value2Unit">
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Value2 units of measure.</rdfs:comment>
+    <rdfs:domain rdf:resource="#BasicIntervalSchedule"/>
+    <rdfs:label>value2Unit</rdfs:label>
+    <rdfs:range rdf:resource="#UnitSymbol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Breaker">
+    <cims:belongsToCategory rdf:resource="#Package_Wires"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>A mechanical switching device capable of making, carrying, and breaking currents under normal circuit conditions and also making, carrying for a specified time, and breaking currents under specified abnormal circuit conditions e.g.  those of short circuit.</rdfs:comment>
+    <rdfs:label>Breaker</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#ProtectedSwitch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Breaker.inTransitTime">
+    <cims:dataType rdf:resource="#Seconds"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>The transition time from open to close.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Breaker"/>
+    <rdfs:label>inTransitTime</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ConductingEquipment">
+    <cims:belongsToCategory rdf:resource="#Package_Core"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>The parts of the power system that are designed to carry current or that are conductively connected through terminals.</rdfs:comment>
+    <rdfs:label>ConductingEquipment</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Equipment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#CurrentFlow">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Electrical current with sign convention: positive flow is out of the conducting equipment into the connectivity node.</rdfs:comment>
+    <rdfs:label>CurrentFlow</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#DayType">
+    <cims:belongsToCategory rdf:resource="#Package_LoadModel"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Group of similar days.   For example it could be used to represent weekdays, weekend, or holidays.</rdfs:comment>
+    <rdfs:label>DayType</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Equipment">
+    <cims:belongsToCategory rdf:resource="#Package_IES_Projects"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>The parts of a power system that are physical devices, electronic or mechanical.</rdfs:comment>
+    <rdfs:label>Equipment</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#PowerSystemResource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Equipment.aggregate">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>The single instance of equipment represents multiple pieces of equipment that have been modeled together as an aggregate.  Examples would be power transformers or sychronous machines operating in parallel modeled as a single aggregate power transformer or aggregate synchronous machine.  This is not to be used to indicate equipment that is part of a group of interdependent equipment produced by a network production program.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Equipment"/>
+    <rdfs:label>aggregate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Equipment.normallyInService">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>If true, the equipment is normally in service.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Equipment"/>
+    <rdfs:label>normallyInService</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#IdentifiedObject">
+    <cims:belongsToCategory rdf:resource="#Package_IES_Projects"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>This is a root class to provide common identification for all classes needing identification and naming attributes.</rdfs:comment>
+    <rdfs:label>IdentifiedObject</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#IdentifiedObject.aliasName">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>The aliasName is free text human readable name of the object alternative to IdentifiedObject.name. It may be non unique and may not correlate to a naming hierarchy.
+The attribute aliasName is retained because of backwards compatibility between CIM relases. It is however recommended to replace aliasName with the Name class as aliasName is planned for retirement at a future time.</rdfs:comment>
+    <rdfs:domain rdf:resource="#IdentifiedObject"/>
+    <rdfs:label>aliasName</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#IdentifiedObject.mRID">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Master resource identifier issued by a model authority. The mRID is globally unique within an exchange context.
+Global uniqeness is easily achived by using a UUID for the mRID. It is strongly recommended to do this.
+For CIMXML data files in RDF syntax, the mRID is mapped to rdf:ID or rdf:about attributes that identify CIM object elements.</rdfs:comment>
+    <rdfs:domain rdf:resource="#IdentifiedObject"/>
+    <rdfs:label>mRID</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#IdentifiedObject.name">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>The name is any free human readable and possibly non unique text naming the object.</rdfs:comment>
+    <rdfs:domain rdf:resource="#IdentifiedObject"/>
+    <rdfs:label>name</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#LoadBreakSwitch">
+    <cims:belongsToCategory rdf:resource="#Package_Wires"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>A mechanical switching device capable of making, carrying, and breaking currents under normal operating conditions.</rdfs:comment>
+    <rdfs:label>LoadBreakSwitch</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#ProtectedSwitch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Package_Core">
+    <cims:belongsToCategory rdf:resource="#Package_IEC61970"/>
+    <rdf:type rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory"/>
+    <rdfs:comment>Contains the core PowerSystemResource and ConductingEquipment entities shared by all applications plus common collections of those entities. Not all applications require all the Core entities.  This package does not depend on any other package except the Domain package, but most of the other packages have associations and generalizations that depend on it.</rdfs:comment>
+    <rdfs:label>Core</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Package_Domain">
+    <cims:belongsToCategory rdf:resource="#Package_IEC61970"/>
+    <rdf:type rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory"/>
+    <rdfs:comment>The domain package define primitive datatypes that are used by classes in other packages. Stereotypes are used to describe the datatypes. The following stereotypes are defined:
+&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt; A list of permissible constant values.
+&amp;lt;&amp;lt;Primitive&amp;gt;&amp;gt; The most basic data types used to compose all other data types.
+&amp;lt;&amp;lt;CIMDatatype&amp;gt;&amp;gt; A datatype that contains a value attribute, an optional unit of measure and a unit multiplier. The unit and multiplier may be specified as a static variable initialized to the allowed value.
+&amp;lt;&amp;lt;Compound&amp;gt;&amp;gt; A composite of Primitive, enumeration, CIMDatatype or othe Compound classes, as long as the Compound classes do not recurse.
+</rdfs:comment>
+    <rdfs:label>Domain</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Package_IEC61970">
+    <cims:belongsToCategory rdf:resource="#Package_TC57CIM"/>
+    <rdf:type rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory"/>
+    <rdfs:comment>Top package for IEC 61970.</rdfs:comment>
+    <rdfs:label>IEC61970</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Package_IES_Projects">
+    <cims:belongsToCategory rdf:resource="#Package_TC57CIM"/>
+    <rdf:type rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory"/>
+    <rdfs:label>IES_Projects</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Package_LoadModel">
+    <cims:belongsToCategory rdf:resource="#Package_IEC61970"/>
+    <rdf:type rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory"/>
+    <rdfs:comment>This package is responsible for modeling the energy consumers and the system load as curves and associated curve data. Special circumstances that may affect the load, such as seasons and daytypes, are also included here.
+
+This information is used by Load Forecasting and Load Management.</rdfs:comment>
+    <rdfs:label>LoadModel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Package_TC57CIM">
+    <rdf:type rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory"/>
+    <rdfs:comment>Top package for IEC TC57 CIM.</rdfs:comment>
+    <rdfs:label>TC57CIM</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Package_Wires">
+    <cims:belongsToCategory rdf:resource="#Package_IEC61970"/>
+    <rdf:type rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#ClassCategory"/>
+    <rdfs:comment>An extension to the Core and Topology package that models information on the electrical characteristics of Transmission and Distribution networks. This package is used by network applications such as State Estimation, Load Flow and Optimal Power Flow.</rdfs:comment>
+    <rdfs:label>Wires</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#PowerSystemResource">
+    <cims:belongsToCategory rdf:resource="#Package_IES_Projects"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>A power system resource can be an item of equipment such as a switch, an equipment container containing many individual items of equipment such as a substation, or an organisational entity such as sub-control area. Power system resources can have measurements associated.</rdfs:comment>
+    <rdfs:label>PowerSystemResource</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ProtectedSwitch">
+    <cims:belongsToCategory rdf:resource="#Package_IES_Projects"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>A ProtectedSwitch is a switching device that can be operated by ProtectionEquipment.</rdfs:comment>
+    <rdfs:label>ProtectedSwitch</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Switch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ProtectedSwitch.breakingCapacity">
+    <cims:dataType rdf:resource="#CurrentFlow"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>The maximum fault current a breaking device can break safely under prescribed conditions of use.</rdfs:comment>
+    <rdfs:domain rdf:resource="#ProtectedSwitch"/>
+    <rdfs:label>breakingCapacity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Recloser">
+    <cims:belongsToCategory rdf:resource="#Package_IES_Projects"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Pole-mounted fault interrupter with built-in phase and ground relays, current transformer (CT), and supplemental controls.</rdfs:comment>
+    <rdfs:label>Recloser</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#ProtectedSwitch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#RegularIntervalSchedule">
+    <cims:belongsToCategory rdf:resource="#Package_IES_Projects"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#ofAggregate"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>The schedule has time points where the time between them is constant.</rdfs:comment>
+    <rdfs:label>RegularIntervalSchedule</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#BasicIntervalSchedule"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#RegularTimePoint">
+    <cims:belongsToCategory rdf:resource="#Package_IES_Projects"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Time point for a schedule where the time between the consecutive points is constant.</rdfs:comment>
+    <rdfs:label>RegularTimePoint</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#RegularTimePoint.IntervalSchedule">
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#ofAggregate"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Regular interval schedule containing this time point.</rdfs:comment>
+    <rdfs:domain rdf:resource="#RegularTimePoint"/>
+    <rdfs:label>IntervalSchedule</rdfs:label>
+    <rdfs:range rdf:resource="#RegularIntervalSchedule"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#RegularTimePoint.sequenceNumber">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>The position of the regular time point in the sequence. Note that time points don't have to be sequential, i.e. time points may be omitted. The actual time for a RegularTimePoint is computed by multiplying the associated regular interval schedule's time step with the regular time point sequence number and adding the associated schedules start time.</rdfs:comment>
+    <rdfs:domain rdf:resource="#RegularTimePoint"/>
+    <rdfs:label>sequenceNumber</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#RegularTimePoint.value1">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>The first value at the time. The meaning of the value is defined by the derived type of the associated schedule.</rdfs:comment>
+    <rdfs:domain rdf:resource="#RegularTimePoint"/>
+    <rdfs:label>value1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#RegularTimePoint.value2">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>The second value at the time. The meaning of the value is defined by the derived type of the associated schedule.</rdfs:comment>
+    <rdfs:domain rdf:resource="#RegularTimePoint"/>
+    <rdfs:label>value2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Season">
+    <cims:belongsToCategory rdf:resource="#Package_LoadModel"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>A specified time period of the year.</rdfs:comment>
+    <rdfs:label>Season</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Season.endDate">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Date season ends.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Season"/>
+    <rdfs:label>endDate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Season.startDate">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Date season starts.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Season"/>
+    <rdfs:label>startDate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SeasonDayTypeSchedule">
+    <cims:belongsToCategory rdf:resource="#Package_LoadModel"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>A time schedule covering a 24 hour period, with curve data for a specific type of season and day.</rdfs:comment>
+    <rdfs:label>SeasonDayTypeSchedule</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#RegularIntervalSchedule"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SeasonDayTypeSchedule.DayType">
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>DayType for the Schedule.</rdfs:comment>
+    <rdfs:domain rdf:resource="#SeasonDayTypeSchedule"/>
+    <rdfs:label>DayType</rdfs:label>
+    <rdfs:range rdf:resource="#DayType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SeasonDayTypeSchedule.Season">
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Season for the Schedule.</rdfs:comment>
+    <rdfs:domain rdf:resource="#SeasonDayTypeSchedule"/>
+    <rdfs:label>Season</rdfs:label>
+    <rdfs:range rdf:resource="#Season"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Seconds">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>Time, in seconds.</rdfs:comment>
+    <rdfs:label>Seconds</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Switch">
+    <cims:belongsToCategory rdf:resource="#Package_Wires"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>A generic device designed to close, or open, or both, one or more electric circuits.</rdfs:comment>
+    <rdfs:label>Switch</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#ConductingEquipment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Switch.normalOpen">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>The attribute is used in cases when no Measurement for the status value is present. If the Switch has a status measurment the Discrete.normalValue is expected to match with the Switch.normalOpen.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Switch"/>
+    <rdfs:label>normalOpen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Switch.ratedCurrent">
+    <cims:dataType rdf:resource="#CurrentFlow"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>The maximum continuous current carrying capacity in amps governed by the device material and construction.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Switch"/>
+    <rdfs:label>ratedCurrent</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Switch.retained">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>Branch is retained in a bus branch model.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Switch"/>
+    <rdfs:label>retained</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Switch.switchOnCount">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>The switch on count since the switch was last reset or initialized.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Switch"/>
+    <rdfs:label>switchOnCount</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Switch.switchOnDate">
+    <cims:dataType rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:0..1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>The date and time when the switch was last switched on.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Switch"/>
+    <rdfs:label>switchOnDate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SwitchSchedule">
+    <cims:belongsToCategory rdf:resource="#Package_Wires"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>A schedule of switch positions.  If RegularTimePoint.value1 is 0, the switch is open.  If 1, the switch is closed.</rdfs:comment>
+    <rdfs:label>SwitchSchedule</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#SeasonDayTypeSchedule"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SwitchSchedule.Switch">
+    <cims:multiplicity rdf:resource="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#M:1"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:comment>A SwitchSchedule is associated with a Switch.</rdfs:comment>
+    <rdfs:domain rdf:resource="#SwitchSchedule"/>
+    <rdfs:label>Switch</rdfs:label>
+    <rdfs:range rdf:resource="#Switch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitMultiplier">
+    <cims:belongsToCategory rdf:resource="#Package_Domain"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#enumeration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>The unit multipliers defined for the CIM.</rdfs:comment>
+    <rdfs:label>UnitMultiplier</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitMultiplier.G">
+    <rdf:type rdf:resource="#UnitMultiplier"/>
+    <rdfs:comment>Giga 10**9.</rdfs:comment>
+    <rdfs:label>G</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitMultiplier.M">
+    <rdf:type rdf:resource="#UnitMultiplier"/>
+    <rdfs:comment>Mega 10**6.</rdfs:comment>
+    <rdfs:label>M</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitMultiplier.T">
+    <rdf:type rdf:resource="#UnitMultiplier"/>
+    <rdfs:comment>Tera 10**12.</rdfs:comment>
+    <rdfs:label>T</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitMultiplier.c">
+    <rdf:type rdf:resource="#UnitMultiplier"/>
+    <rdfs:comment>Centi 10**-2.</rdfs:comment>
+    <rdfs:label>c</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitMultiplier.d">
+    <rdf:type rdf:resource="#UnitMultiplier"/>
+    <rdfs:comment>Deci 10**-1.</rdfs:comment>
+    <rdfs:label>d</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitMultiplier.k">
+    <rdf:type rdf:resource="#UnitMultiplier"/>
+    <rdfs:comment>Kilo 10**3.</rdfs:comment>
+    <rdfs:label>k</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitMultiplier.m">
+    <rdf:type rdf:resource="#UnitMultiplier"/>
+    <rdfs:comment>Milli 10**-3.</rdfs:comment>
+    <rdfs:label>m</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitMultiplier.micro">
+    <rdf:type rdf:resource="#UnitMultiplier"/>
+    <rdfs:comment>Micro 10**-6.</rdfs:comment>
+    <rdfs:label>micro</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitMultiplier.n">
+    <rdf:type rdf:resource="#UnitMultiplier"/>
+    <rdfs:comment>Nano 10**-9.</rdfs:comment>
+    <rdfs:label>n</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitMultiplier.none">
+    <rdf:type rdf:resource="#UnitMultiplier"/>
+    <rdfs:comment>No multiplier or equivalently multiply by 1.</rdfs:comment>
+    <rdfs:label>none</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitMultiplier.p">
+    <rdf:type rdf:resource="#UnitMultiplier"/>
+    <rdfs:comment>Pico 10**-12.</rdfs:comment>
+    <rdfs:label>p</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol">
+    <cims:belongsToCategory rdf:resource="#Package_Domain"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#attribute"/>
+    <cims:stereotype rdf:resource="http://langdale.com.au/2005/UML#enumeration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:comment>The units defiend for usage in the CIM.</rdfs:comment>
+    <rdfs:label>UnitSymbol</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.A">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Current in ampere.</rdfs:comment>
+    <rdfs:label>A</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.F">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Capacitance in farad.</rdfs:comment>
+    <rdfs:label>F</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.H">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Inductance in henry.</rdfs:comment>
+    <rdfs:label>H</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.Hz">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Frequency in hertz.</rdfs:comment>
+    <rdfs:label>Hz</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.J">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Energy in joule.</rdfs:comment>
+    <rdfs:label>J</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.N">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Force in newton.</rdfs:comment>
+    <rdfs:label>N</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.Pa">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Pressure in pascal (n/m2).</rdfs:comment>
+    <rdfs:label>Pa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.S">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Conductance in siemens.</rdfs:comment>
+    <rdfs:label>S</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.V">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Voltage in volt.</rdfs:comment>
+    <rdfs:label>V</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.VA">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Apparent power in volt ampere.</rdfs:comment>
+    <rdfs:label>VA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.VAh">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Apparent energy in volt ampere hours.</rdfs:comment>
+    <rdfs:label>VAh</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.VAr">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Reactive power in volt ampere reactive.</rdfs:comment>
+    <rdfs:label>VAr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.VArh">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Reactive energy in volt ampere reactive hours.</rdfs:comment>
+    <rdfs:label>VArh</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.W">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Active power in watt.</rdfs:comment>
+    <rdfs:label>W</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.Wh">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Real energy in what hours.</rdfs:comment>
+    <rdfs:label>Wh</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.deg">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Plane angle in degrees.</rdfs:comment>
+    <rdfs:label>deg</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.degC">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Relative temperature in degrees Celsius. In the SI unit system the symbol is ºC. Electric charge is measured in coulomb that has the unit symbol C. To destinguish degree Celsius form coulomb the symbol used in the UML is degC. Reason for not using ºC is the special character º is difficult to manage in software.</rdfs:comment>
+    <rdfs:label>degC</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.g">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Mass in gram.</rdfs:comment>
+    <rdfs:label>g</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.h">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Time in hours.</rdfs:comment>
+    <rdfs:label>h</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.m">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Length in meter.</rdfs:comment>
+    <rdfs:label>m</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.m2">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Area in square meters.</rdfs:comment>
+    <rdfs:label>m2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.m3">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Volume in cubic meters.</rdfs:comment>
+    <rdfs:label>m3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.min">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Time in minutes.</rdfs:comment>
+    <rdfs:label>min</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.none">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Dimension less quantity, e.g. count, per unit, etc.</rdfs:comment>
+    <rdfs:label>none</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.ohm">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Resistance in ohm.</rdfs:comment>
+    <rdfs:label>ohm</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.rad">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Plane angle in radians.</rdfs:comment>
+    <rdfs:label>rad</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#UnitSymbol.s">
+    <rdf:type rdf:resource="#UnitSymbol"/>
+    <rdfs:comment>Time in seconds.</rdfs:comment>
+    <rdfs:label>s</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
