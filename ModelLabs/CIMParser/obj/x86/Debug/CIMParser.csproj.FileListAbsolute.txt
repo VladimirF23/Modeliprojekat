@@ -13,3 +13,9 @@ D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\bin\CIMParser.pdb
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.dll
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.pdb
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\bin\CIMParser.dll
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\bin\CIMParser.pdb
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.csproj.AssemblyReference.cache
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.csproj.CoreCompileInputs.cache
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.dll
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.pdb

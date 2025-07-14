@@ -115,6 +115,9 @@ namespace FTN.Services.NetworkModelService
 		/// </summary>
 		/// <param name="globalId">Global id of the entity for insert</param>		
 		/// <returns>Created entity (identified object).</returns>
+		/// 
+
+		//IZMENITI OVDE
 		public IdentifiedObject CreateEntity(long globalId)
 		{
 			short type = ModelCodeHelper.ExtractTypeFromGlobalId(globalId);

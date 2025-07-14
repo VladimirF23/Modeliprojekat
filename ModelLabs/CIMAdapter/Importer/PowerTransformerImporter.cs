@@ -95,16 +95,19 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 		{
 			LogManager.Log("Loading elements and creating delta...", LogLevel.Info);
 
-			//// import all concrete model types (DMSType enum)
-			
+            //// import all concrete model types (DMSType enum)
 
-			// NAPRAVITI OVDE SVAKI POZIV ZA KONKRETNE KLASE
 
-			ImportBaseVoltages();
-			ImportLocations();
-			ImportPowerTransformers();
-			ImportTransformerWindings();
-			ImportWindingTests();
+            // NAPRAVITI OVDE SVAKI POZIV ZA KONKRETNE KLASE
+			// paziti na redosled
+            ImportSeasons();
+			ImportDayType();
+			ImportBreakers();
+			ImportReclosers();
+			ImportLoadBreakSwitch();
+			ImportSwitchSchedule();
+			ImportRegularTimePoint();
+
 
 			LogManager.Log("Loading elements and creating delta completed.", LogLevel.Info);
 		}
@@ -113,204 +116,291 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 
 		//OVDE DA BUDU KONKRETNE
 
-		private void ImportBaseVoltages()
+		private void ImportSeasons()
 		{
 			
-			SortedDictionary<string, object> cimBaseVoltages = concreteModel.GetAllObjectsOfType("FTN.BaseVoltage");
-			if (cimBaseVoltages != null)
+			SortedDictionary<string, object> cimSeasons = concreteModel.GetAllObjectsOfType("FTN.Season");
+			if (cimSeasons != null)
 			{
-				foreach (KeyValuePair<string, object> cimBaseVoltagePair in cimBaseVoltages)
+				foreach (KeyValuePair<string, object> cimSeasonPair in cimSeasons)
 				{
-					FTN.BaseVoltage cimBaseVoltage = cimBaseVoltagePair.Value as FTN.BaseVoltage;
+					FTN.Season cimSeason = cimSeasonPair.Value as FTN.Season;
 
-					ResourceDescription rd = CreateBaseVoltageResourceDescription(cimBaseVoltage);
+					//kljuc pravimo 
+					ResourceDescription rd = CreateSeasonResourceDescription(cimSeason);
 					if (rd != null)
 					{
 
 						//I ovde
 						delta.AddDeltaOperation(DeltaOpType.Insert, rd, true);
-						report.Report.Append("BaseVoltage ID = ").Append(cimBaseVoltage.ID).Append(" SUCCESSFULLY converted to GID = ").AppendLine(rd.Id.ToString());
+						report.Report.Append("Season ID = ").Append(cimSeason.ID).Append(" SUCCESSFULLY converted to GID = ").AppendLine(rd.Id.ToString());
 					}
 					else
 					{
-						report.Report.Append("BaseVoltage ID = ").Append(cimBaseVoltage.ID).AppendLine(" FAILED to be converted");
+						report.Report.Append("Season ID = ").Append(cimSeason.ID).AppendLine(" FAILED to be converted");
 					}
 				}
 				report.Report.AppendLine();
 			}
 		}
 
-		private ResourceDescription CreateBaseVoltageResourceDescription(FTN.BaseVoltage cimBaseVoltage)
+		private ResourceDescription CreateSeasonResourceDescription(FTN.Season cimSeason)
 		{
 			ResourceDescription rd = null;
-			if (cimBaseVoltage != null)
+			if (cimSeason != null)
 			{
-				long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.BASEVOLTAGE, importHelper.CheckOutIndexForDMSType(DMSType.BASEVOLTAGE));
+				long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.SEASON, importHelper.CheckOutIndexForDMSType(DMSType.SEASON));
 				rd = new ResourceDescription(gid);
-				importHelper.DefineIDMapping(cimBaseVoltage.ID, gid);
+				importHelper.DefineIDMapping(cimSeason.ID, gid);
 
 				////populate ResourceDescription
-				PowerTransformerConverter.PopulateBaseVoltageProperties(cimBaseVoltage, rd);
+				PowerTransformerConverter.PopulateSeasonProperties(cimSeason, rd,importHelper,report);
 			}
 			return rd;
 		}
 		
-		private void ImportLocations()
+		private void ImportDayType()
 		{
-			SortedDictionary<string, object> cimLocations = concreteModel.GetAllObjectsOfType("FTN.Location");
-			if (cimLocations != null)
+			SortedDictionary<string, object> cimDayTypes = concreteModel.GetAllObjectsOfType("FTN.DayType");
+			if (cimDayTypes != null)
 			{
-				foreach (KeyValuePair<string, object> cimLocationPair in cimLocations)
+				foreach (KeyValuePair<string, object> cimDayTypePair in cimDayTypes)
 				{
-					FTN.Location cimLocation = cimLocationPair.Value as FTN.Location;
+					FTN.DayType cimDayTypeSchedule = cimDayTypePair.Value as FTN.DayType;
 
-					ResourceDescription rd = CreateLocationResourceDescription(cimLocation);
+					ResourceDescription rd = CreateDayTypeDescription(cimDayTypeSchedule);
 					if (rd != null)
 					{
 						delta.AddDeltaOperation(DeltaOpType.Insert, rd, true);
-						report.Report.Append("Location ID = ").Append(cimLocation.ID).Append(" SUCCESSFULLY converted to GID = ").AppendLine(rd.Id.ToString());
+						report.Report.Append("DayType ID = ").Append(cimDayTypeSchedule.ID).Append(" SUCCESSFULLY converted to GID = ").AppendLine(rd.Id.ToString());
 					}
 					else
 					{
-						report.Report.Append("Location ID = ").Append(cimLocation.ID).AppendLine(" FAILED to be converted");
+						report.Report.Append("DayType ID = ").Append(cimDayTypeSchedule.ID).AppendLine(" FAILED to be converted");
 					}
 				}
 				report.Report.AppendLine();
 			}
 		}
 
-		private ResourceDescription CreateLocationResourceDescription(FTN.Location cimLocation)
+
+        private ResourceDescription CreateDayTypeDescription(FTN.DayType cimDayType)
 		{
 			ResourceDescription rd = null;
-			if (cimLocation != null)
+			if (cimDayType != null)
 			{
-				long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.LOCATION, importHelper.CheckOutIndexForDMSType(DMSType.LOCATION));
+				long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.DAYTYPE, importHelper.CheckOutIndexForDMSType(DMSType.DAYTYPE));
 				rd = new ResourceDescription(gid);
-				importHelper.DefineIDMapping(cimLocation.ID, gid);
+				importHelper.DefineIDMapping(cimDayType.ID, gid);
 
-				////populate ResourceDescription
-				PowerTransformerConverter.PopulateLocationProperties(cimLocation, rd);
+				////populate 
+				PowerTransformerConverter.PopulateDayTypeProperties(cimDayType, rd, importHelper, report);
 			}
 			return rd;
 		}
 
-		private void ImportPowerTransformers()
+		private void ImportRegularTimePoint()
 		{
-			SortedDictionary<string, object> cimPowerTransformers = concreteModel.GetAllObjectsOfType("FTN.PowerTransformer");
-			if (cimPowerTransformers != null)
+			SortedDictionary<string, object> cimRegularTimePoints = concreteModel.GetAllObjectsOfType("FTN.RegularTimePoint");
+			if (cimRegularTimePoints != null)
 			{
-				foreach (KeyValuePair<string, object> cimPowerTransformerPair in cimPowerTransformers)
+				foreach (KeyValuePair<string, object> cimRegularTimePointPair in cimRegularTimePoints)
 				{
-					FTN.PowerTransformer cimPowerTransformer = cimPowerTransformerPair.Value as FTN.PowerTransformer;
+					FTN.RegularTimePoint cimRegularTimePoint = cimRegularTimePointPair.Value as FTN.RegularTimePoint;
 
-					ResourceDescription rd = CreatePowerTransformerResourceDescription(cimPowerTransformer);
+					ResourceDescription rd = CreateRegularTimePointResourceDescription(cimRegularTimePoint);
 					if (rd != null)
 					{
 						delta.AddDeltaOperation(DeltaOpType.Insert, rd, true);
-						report.Report.Append("PowerTransformer ID = ").Append(cimPowerTransformer.ID).Append(" SUCCESSFULLY converted to GID = ").AppendLine(rd.Id.ToString());
+						report.Report.Append("RegularTimePoint ID = ").Append(cimRegularTimePoint.ID).Append(" SUCCESSFULLY converted to GID = ").AppendLine(rd.Id.ToString());
 					}
 					else
 					{
-						report.Report.Append("PowerTransformer ID = ").Append(cimPowerTransformer.ID).AppendLine(" FAILED to be converted");
+						report.Report.Append("RegularTimePoint ID = ").Append(cimRegularTimePoint.ID).AppendLine(" FAILED to be converted");
 					}
 				}
 				report.Report.AppendLine();
 			}
 		}
 
-		private ResourceDescription CreatePowerTransformerResourceDescription(FTN.PowerTransformer cimPowerTransformer)
+
+        private ResourceDescription CreateRegularTimePointResourceDescription(FTN.RegularTimePoint cimRegularTimePoint)
 		{
 			ResourceDescription rd = null;
-			if (cimPowerTransformer != null)
+			if (cimRegularTimePoint != null)
 			{
-				long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.POWERTR, importHelper.CheckOutIndexForDMSType(DMSType.POWERTR));
+				long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.REGULARTIMEPOINT, importHelper.CheckOutIndexForDMSType(DMSType.REGULARTIMEPOINT));
 				rd = new ResourceDescription(gid);
-				importHelper.DefineIDMapping(cimPowerTransformer.ID, gid);
+				importHelper.DefineIDMapping(cimRegularTimePoint.ID, gid);
 
 				////populate ResourceDescription
-				PowerTransformerConverter.PopulatePowerTransformerProperties(cimPowerTransformer, rd, importHelper, report);
+				PowerTransformerConverter.PopulateRegularTimePointProperties(cimRegularTimePoint, rd,importHelper, report);
 			}
 			return rd;
 		}
 
-		private void ImportTransformerWindings()
+		private void ImportSwitchSchedule()
 		{
-			SortedDictionary<string, object> cimTransformerWindings = concreteModel.GetAllObjectsOfType("FTN.TransformerWinding");
-			if (cimTransformerWindings != null)
+			SortedDictionary<string, object> cimSwitchSchedules = concreteModel.GetAllObjectsOfType("FTN.SwitchSchedule");
+			if (cimSwitchSchedules != null)
 			{
-				foreach (KeyValuePair<string, object> cimTransformerWindingPair in cimTransformerWindings)
+				foreach (KeyValuePair<string, object> cimSwitchSchedulesPair in cimSwitchSchedules)
 				{
-					FTN.TransformerWinding cimTransformerWinding = cimTransformerWindingPair.Value as FTN.TransformerWinding;
+					FTN.SwitchSchedule cimSwitchSchedule = cimSwitchSchedulesPair.Value as FTN.SwitchSchedule;
 
-					ResourceDescription rd = CreateTransformerWindingResourceDescription(cimTransformerWinding);
+					ResourceDescription rd = CreateSwitchScheduleResourceDescription(cimSwitchSchedule);
 					if (rd != null)
 					{
 						delta.AddDeltaOperation(DeltaOpType.Insert, rd, true);
-						report.Report.Append("TransformerWinding ID = ").Append(cimTransformerWinding.ID).Append(" SUCCESSFULLY converted to GID = ").AppendLine(rd.Id.ToString());
+						report.Report.Append("SwitchSchedule ID = ").Append(cimSwitchSchedule.ID).Append(" SUCCESSFULLY converted to GID = ").AppendLine(rd.Id.ToString());
 					}
 					else
 					{
-						report.Report.Append("TransformerWinding ID = ").Append(cimTransformerWinding.ID).AppendLine(" FAILED to be converted");
+						report.Report.Append("SwitchSchedule ID = ").Append(cimSwitchSchedule.ID).AppendLine(" FAILED to be converted");
 					}
 				}
 				report.Report.AppendLine();
 			}
 		}
 
-		private ResourceDescription CreateTransformerWindingResourceDescription(FTN.TransformerWinding cimTransformerWinding)
+		private ResourceDescription CreateSwitchScheduleResourceDescription(FTN.SwitchSchedule cimSwitchSchedule)
 		{
 			ResourceDescription rd = null;
-			if (cimTransformerWinding != null)
+			if (cimSwitchSchedule != null)
 			{
-				long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.POWERTRWINDING, importHelper.CheckOutIndexForDMSType(DMSType.POWERTRWINDING));
+				long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.SWITCHSCHEDULE, importHelper.CheckOutIndexForDMSType(DMSType.SWITCHSCHEDULE));
 				rd = new ResourceDescription(gid);
-				importHelper.DefineIDMapping(cimTransformerWinding.ID, gid);
+				importHelper.DefineIDMapping(cimSwitchSchedule.ID, gid);
 
 				////populate ResourceDescription
-				PowerTransformerConverter.PopulateTransformerWindingProperties(cimTransformerWinding, rd, importHelper, report);
+				PowerTransformerConverter.PopulateSwitchScheduleProperties(cimSwitchSchedule, rd, importHelper, report);
 			}
 			return rd;
 		}
 
-		private void ImportWindingTests()
+		private void ImportBreakers()
 		{
-			SortedDictionary<string, object> cimWindingTests = concreteModel.GetAllObjectsOfType("FTN.WindingTest");
-			if (cimWindingTests != null)
+			SortedDictionary<string, object> cimBreakers = concreteModel.GetAllObjectsOfType("FTN.Breaker");
+			if (cimBreakers != null)
 			{
-				foreach (KeyValuePair<string, object> cimWindingTestPair in cimWindingTests)
+				foreach (KeyValuePair<string, object> cimBreakerPair in cimBreakers)
 				{
-					FTN.WindingTest cimWindingTest = cimWindingTestPair.Value as FTN.WindingTest;
+					FTN.Breaker cimBreaker = cimBreakerPair.Value as FTN.Breaker;
 
-					ResourceDescription rd = CreateWindingTestResourceDescription(cimWindingTest);
+					ResourceDescription rd = CreateBreakerResourceDescription(cimBreaker);
 					if (rd != null)
 					{
 						delta.AddDeltaOperation(DeltaOpType.Insert, rd, true);
-						report.Report.Append("WindingTest ID = ").Append(cimWindingTest.ID).Append(" SUCCESSFULLY converted to GID = ").AppendLine(rd.Id.ToString());
+						report.Report.Append("Breaker ID = ").Append(cimBreaker.ID).Append(" SUCCESSFULLY converted to GID = ").AppendLine(rd.Id.ToString());
 					}
 					else
 					{
-						report.Report.Append("WindingTest ID = ").Append(cimWindingTest.ID).AppendLine(" FAILED to be converted");
+						report.Report.Append("Breaker ID = ").Append(cimBreaker.ID).AppendLine(" FAILED to be converted");
 					}
 				}
 				report.Report.AppendLine();
 			}
 		}
 
-		private ResourceDescription CreateWindingTestResourceDescription(FTN.WindingTest cimWindingTest)
+		private ResourceDescription CreateBreakerResourceDescription(FTN.Breaker cimBreaker)
 		{
 			ResourceDescription rd = null;
-			if (cimWindingTest != null)
+			if (cimBreaker != null)
 			{
-				long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.WINDINGTEST, importHelper.CheckOutIndexForDMSType(DMSType.WINDINGTEST));
+				long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.BREAKER, importHelper.CheckOutIndexForDMSType(DMSType.BREAKER));
 				rd = new ResourceDescription(gid);
-				importHelper.DefineIDMapping(cimWindingTest.ID, gid);
+				importHelper.DefineIDMapping(cimBreaker.ID, gid);
 
 				////populate ResourceDescription
-				PowerTransformerConverter.PopulateWindingTestProperties(cimWindingTest, rd, importHelper, report);
+				PowerTransformerConverter.PopulateBreakerProperties(cimBreaker, rd, importHelper, report);
 			}
 			return rd;
 		}
-		#endregion Import
-	}
+
+
+        private void ImportReclosers()
+		{
+            SortedDictionary<string, object> cimReclosers = concreteModel.GetAllObjectsOfType("FTN.Recloser");
+            if (cimReclosers != null)
+            {
+                foreach (KeyValuePair<string, object> cimRecloserPair in cimReclosers)
+                {
+                    FTN.Recloser cimRecloser = cimRecloserPair.Value as FTN.Recloser;
+
+                    ResourceDescription rd = CreateRecloserResourceDescription(cimRecloser);
+                    if (rd != null)
+                    {
+                        delta.AddDeltaOperation(DeltaOpType.Insert, rd, true);
+                        report.Report.Append("Recloser ID = ").Append(cimRecloser.ID).Append(" SUCCESSFULLY converted to GID = ").AppendLine(rd.Id.ToString());
+                    }
+                    else
+                    {
+                        report.Report.Append("Recloser ID = ").Append(cimRecloser.ID).AppendLine(" FAILED to be converted");
+                    }
+                }
+                report.Report.AppendLine();
+            }
+
+        }
+
+        private ResourceDescription CreateRecloserResourceDescription(FTN.Recloser cimRecloser)
+		{
+            ResourceDescription rd = null;
+            if (cimRecloser != null)
+            {
+                long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.RECLOSER, importHelper.CheckOutIndexForDMSType(DMSType.RECLOSER));
+                rd = new ResourceDescription(gid);
+                importHelper.DefineIDMapping(cimRecloser.ID, gid);
+
+                ////populate ResourceDescription
+                PowerTransformerConverter.PopulateRecloserProperties(cimRecloser, rd, importHelper, report);
+            }
+            return rd;
+
+        }
+
+        private void ImportLoadBreakSwitch()
+        {
+            SortedDictionary<string, object> cimLoadBreakSwitches= concreteModel.GetAllObjectsOfType("FTN.LoadBreakSwitch");
+            if (cimLoadBreakSwitches != null)
+            {
+                foreach (KeyValuePair<string, object> cimLoadBreakSwitchPair in cimLoadBreakSwitches)
+                {
+                    FTN.LoadBreakSwitch cimLoadBreakSwitch = cimLoadBreakSwitchPair.Value as FTN.LoadBreakSwitch;
+
+                    ResourceDescription rd = CreateLoadBreakSwitchResourceDescription(cimLoadBreakSwitch);
+                    if (rd != null)
+                    {
+                        delta.AddDeltaOperation(DeltaOpType.Insert, rd, true);
+                        report.Report.Append("Load Brake Switch ID = ").Append(cimLoadBreakSwitch.ID).Append(" SUCCESSFULLY converted to GID = ").AppendLine(rd.Id.ToString());
+                    }
+                    else
+                    {
+                        report.Report.Append("Load Brake Switch ID = ").Append(cimLoadBreakSwitch.ID).AppendLine(" FAILED to be converted");
+                    }
+                }
+                report.Report.AppendLine();
+            }
+
+        }
+
+        private ResourceDescription CreateLoadBreakSwitchResourceDescription(FTN.LoadBreakSwitch cimLoadBrakeSwitch)
+		{
+            ResourceDescription rd = null;
+            if (cimLoadBrakeSwitch != null)
+            {
+                long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.LOADBREAKSWITCH, importHelper.CheckOutIndexForDMSType(DMSType.LOADBREAKSWITCH));
+                rd = new ResourceDescription(gid);
+                importHelper.DefineIDMapping(cimLoadBrakeSwitch.ID, gid);
+
+                ////populate ResourceDescription
+                PowerTransformerConverter.PopulateLoadBreackSwitchProperties(cimLoadBrakeSwitch, rd, importHelper, report);
+            }
+            return rd;
+        }
+
+
+        #endregion Import
+    }
 }
 

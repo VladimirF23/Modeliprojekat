@@ -13,3 +13,10 @@ D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\bin\FTN.ServiceContrac
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\FTN.ServiceContracts.ServiceContracts.NetworkModelQueryContract.dll
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\FTN.ServiceContracts.ServiceContracts.NetworkModelQueryContract.pdb
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\bin\FTN.ServiceContracts.ServiceContracts.NetworkModelQueryContract.dll
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\bin\FTN.ServiceContracts.ServiceContracts.NetworkModelQueryContract.pdb
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\NetworkModelGDAContract.csproj.AssemblyReference.cache
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\NetworkModelGDAContract.csproj.CoreCompileInputs.cache
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\NetworkM.BEDDB4BB.Up2Date
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\FTN.ServiceContracts.ServiceContracts.NetworkModelQueryContract.dll
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\FTN.ServiceContracts.ServiceContracts.NetworkModelQueryContract.pdb

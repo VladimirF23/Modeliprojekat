@@ -10,6 +10,7 @@ using FTN.Services.NetworkModelService.DataModel.Core;
 
 namespace FTN.Services.NetworkModelService.DataModel.Wires
 {	
+	//DODATI NASLEDJIVANJE  overidovanje equalsa, paziti na reference
 	public class TransformerWinding : ConductingEquipment
 	{
 		private WindingConnection connectionType;
