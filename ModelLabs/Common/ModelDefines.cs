@@ -7,7 +7,7 @@ namespace FTN.Common
 	
 	public enum DMSType : short
 	{		
-		MASK_TYPE							= unchecked((short)0xFFFF),
+		MASK_TYPE		 = unchecked((short)0xFFFF),
 
         SEASON			 =	0x0001,
 		DAYTYPE			 =	0x0002,
@@ -60,13 +60,13 @@ namespace FTN.Common
         SWITCH_SCHEDULE_REF =           0x1411100000040109,
         SWITCH =                        0x1511100000000000,
         SWITCH_NORMAL_OPEN =            0x1511100000000101,
-        SWITCH_CURRENT_FLOW =           0x1511100000000205,
+        SWITCH_RATED_CURRENT =          0x1511100000000205,
         SWITCH_RETAINED =               0x1511100000000301,
         SWITCH_ON_COUNT =               0x1511100000000404,
         SWITCH_ON_DATE =                0x1511100000000508,
         SWITCH_REF =                    0x1511100000000619,
         PROTECTED_SWITCH =              0x1511110000000000,
-        PROTECTED_SWITCH_CURRENT_FLOW = 0x1511110000000105,
+        PROTECTED_SWITCH_BREAKING_CAPACITY = 0x1511110000000105,
         BREAKER =                       0x1511111000050000,
         BREAKER_IN_TRANSIT_TIME =       0x1511111000050106,
         RECLOSER =                      0x1511112000060000,

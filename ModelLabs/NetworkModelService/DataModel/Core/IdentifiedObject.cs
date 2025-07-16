@@ -42,7 +42,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
 		/// <summary>
 		/// Description of identified object
 		/// </summary>		
-		private string description = string.Empty;
+		private string aliasName = string.Empty;
 		
 		/// <summary>
 		/// Initializes a new instance of the IdentifiedObject class.
@@ -94,13 +94,13 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
 			set { mrid = value; }
 		}
 
-		/// <summary>
-		/// Gets or sets description of the entity (identified object).
-		/// </summary>			
-		public string Description
-		{
-			get { return description; }
-			set { description = value; }
+        /// <summary>
+        /// Gets or sets aliasName of the entity (identified object).
+        /// </summary>			
+        public string AliasName
+        {
+			get { return aliasName; }
+			set { aliasName = value; }
 		}		
 
 		public static bool operator ==(IdentifiedObject x, IdentifiedObject y)
@@ -134,7 +134,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
 			{
 				IdentifiedObject io = (IdentifiedObject)x;
 				return ((io.GlobalId == this.GlobalId) && (io.name == this.name) && (io.mrid == this.mrid) &&
-						(io.description == this.description));
+						(io.aliasName == this.aliasName));
 			}
 		}
 		
@@ -151,7 +151,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
 			{
 				case ModelCode.IDOBJ_GID:				
 				case ModelCode.IDOBJ_NAME:
-				case ModelCode.IDOBJ_DESCRIPTION:
+				case ModelCode.IDOBJ_ALIASNAME:
 				case ModelCode.IDOBJ_MRID:
 					return true;
 
@@ -175,10 +175,9 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
 				case ModelCode.IDOBJ_MRID:
 					property.SetValue(mrid);
 					break;
-
-                case ModelCode.IDOBJ_DESCRIPTION:
-                    property.SetValue(description);
-                    break;
+				case ModelCode.IDOBJ_ALIASNAME:
+					property.SetValue(aliasName);
+					break;
 			
 				default:
 					string message = string.Format("Unknown property id = {0} for entity (GID = 0x{1:x16}).", property.Id.ToString(), this.GlobalId);
@@ -195,8 +194,8 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
 					name = property.AsString();					
 					break;
 
-				case ModelCode.IDOBJ_DESCRIPTION:
-					description = property.AsString();					
+				case ModelCode.IDOBJ_ALIASNAME:
+					aliasName = property.AsString();					
 					break;
 
 				case ModelCode.IDOBJ_MRID:					
