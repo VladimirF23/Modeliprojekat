@@ -1,0 +1,183 @@
+﻿<delta id="0">
+  <operations>
+    <operation type="insert">
+      <ResourceDescriptions count="14">
+        <ResourceDescription>
+          <id gid="0x00000001ffffffff" type="SEASON" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="S0" />
+            <Property id="IDOBJ_NAME" value="Leto" />
+            <Property id="IDOBJ_ALIASNAME" value="Summer 2025" />
+            <Property id="SEASON_START_DATE" value="638860680000000000" />
+            <Property id="SEASON_END_DATE" value="638941896000000000" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000001fffffffe" type="SEASON" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="S1" />
+            <Property id="IDOBJ_NAME" value="Prolece" />
+            <Property id="IDOBJ_ALIASNAME" value="Spring 2025" />
+            <Property id="SEASON_START_DATE" value="638780292000000000" />
+            <Property id="SEASON_END_DATE" value="638859816000000000" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000001fffffffd" type="SEASON" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="S2" />
+            <Property id="IDOBJ_NAME" value="Jesen" />
+            <Property id="IDOBJ_ALIASNAME" value="Autumn 2025" />
+            <Property id="SEASON_START_DATE" value="638942760000000000" />
+            <Property id="SEASON_END_DATE" value="639017892000000000" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000002ffffffff" type="DAYTYPE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="DT1" />
+            <Property id="IDOBJ_NAME" value="Radni dan" />
+            <Property id="IDOBJ_ALIASNAME" value="Weekday" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000002fffffffe" type="DAYTYPE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="DT2" />
+            <Property id="IDOBJ_NAME" value="Praznik" />
+            <Property id="IDOBJ_ALIASNAME" value="Holiday" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000002fffffffd" type="DAYTYPE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="DT3" />
+            <Property id="IDOBJ_NAME" value="Vikend" />
+            <Property id="IDOBJ_ALIASNAME" value="Weekend" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005ffffffff" type="BREAKER" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="BRK1" />
+            <Property id="IDOBJ_NAME" value="Breaker_10kV_MainFeeder" />
+            <Property id="IDOBJ_ALIASNAME" value="Main Feeder Breaker" />
+            <Property id="EQUIPMENT_AGGREGATE" value="0" />
+            <Property id="EQUIPMENT_NORMALY_IN_SERVICE" value="1" />
+            <Property id="SWITCH_NORMAL_OPEN" value="0" />
+            <Property id="SWITCH_RATED_CURRENT" value="630" />
+            <Property id="SWITCH_RETAINED" value="1" />
+            <Property id="SWITCH_ON_COUNT" value="123" />
+            <Property id="SWITCH_ON_DATE" value="637513668000000000" />
+            <Property id="PROTECTED_SWITCH_BREAKING_CAPACITY" value="25000" />
+            <Property id="BREAKER_IN_TRANSIT_TIME" value="0.15" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006ffffffff" type="RECLOSER" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="RCL1" />
+            <Property id="IDOBJ_NAME" value="Recloser_10kV_LineA" />
+            <Property id="IDOBJ_ALIASNAME" value="Line A Recloser" />
+            <Property id="EQUIPMENT_AGGREGATE" value="0" />
+            <Property id="EQUIPMENT_NORMALY_IN_SERVICE" value="1" />
+            <Property id="SWITCH_NORMAL_OPEN" value="0" />
+            <Property id="SWITCH_RATED_CURRENT" value="400" />
+            <Property id="SWITCH_RETAINED" value="1" />
+            <Property id="SWITCH_ON_COUNT" value="78" />
+            <Property id="SWITCH_ON_DATE" value="638245512000000000" />
+            <Property id="PROTECTED_SWITCH_BREAKING_CAPACITY" value="16000" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000007ffffffff" type="LOADBREAKSWITCH" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="LBS123" />
+            <Property id="IDOBJ_NAME" value="Main_Street_LoadBreakSwitch" />
+            <Property id="IDOBJ_ALIASNAME" value="Main Street LBS" />
+            <Property id="EQUIPMENT_AGGREGATE" value="0" />
+            <Property id="EQUIPMENT_NORMALY_IN_SERVICE" value="1" />
+            <Property id="SWITCH_NORMAL_OPEN" value="0" />
+            <Property id="SWITCH_RATED_CURRENT" value="400" />
+            <Property id="SWITCH_RETAINED" value="1" />
+            <Property id="SWITCH_ON_COUNT" value="150" />
+            <Property id="SWITCH_ON_DATE" value="638566578000000000" />
+            <Property id="PROTECTED_SWITCH_BREAKING_CAPACITY" value="630" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004ffffffff" type="SWITCHSCHEDULE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="SS1" />
+            <Property id="IDOBJ_NAME" value="Breaker Summer Weekday Schedule" />
+            <Property id="IDOBJ_ALIASNAME" value="BRK1_Summer_Weekday" />
+            <Property id="BASIC_IS_STARTIME" value="638886816000000000" />
+            <Property id="BASIC_IS_VALUE1_MULTIPLIER" value="none" />
+            <Property id="BASIC_IS_VALUE1_UNIT" value="A" />
+            <Property id="BASIC_IS_VALUE2_MULTIPLIER" value="none" />
+            <Property id="BASIC_IS_VALUE2_UNIT" value="V" />
+            <Property id="SEASON_DAY_TYPE_S_REF1" value="0x00000001ffffffff" />
+            <Property id="SEASON_DAY_TYPE_S_REF2" value="0x00000002ffffffff" />
+            <Property id="SWITCH_SCHEDULE_REF" value="0x00000005ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004fffffffe" type="SWITCHSCHEDULE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="SS2" />
+            <Property id="IDOBJ_NAME" value="LoadBreakSwitch Spring Holiday Schedule" />
+            <Property id="IDOBJ_ALIASNAME" value="LBS123_Spring_Holiday" />
+            <Property id="BASIC_IS_STARTIME" value="638886888000000000" />
+            <Property id="BASIC_IS_VALUE1_MULTIPLIER" value="k" />
+            <Property id="BASIC_IS_VALUE1_UNIT" value="A" />
+            <Property id="BASIC_IS_VALUE2_MULTIPLIER" value="none" />
+            <Property id="BASIC_IS_VALUE2_UNIT" value="V" />
+            <Property id="SEASON_DAY_TYPE_S_REF1" value="0x00000001fffffffe" />
+            <Property id="SEASON_DAY_TYPE_S_REF2" value="0x00000002fffffffe" />
+            <Property id="SWITCH_SCHEDULE_REF" value="0x00000007ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004fffffffd" type="SWITCHSCHEDULE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="SS3" />
+            <Property id="IDOBJ_NAME" value="LoadBreakSwitch Summer Weekend Schedule" />
+            <Property id="IDOBJ_ALIASNAME" value="LBS123_Summer_Weekend" />
+            <Property id="BASIC_IS_STARTIME" value="638886852000000000" />
+            <Property id="BASIC_IS_VALUE1_MULTIPLIER" value="none" />
+            <Property id="BASIC_IS_VALUE1_UNIT" value="A" />
+            <Property id="BASIC_IS_VALUE2_MULTIPLIER" value="none" />
+            <Property id="BASIC_IS_VALUE2_UNIT" value="V" />
+            <Property id="SEASON_DAY_TYPE_S_REF1" value="0x00000001ffffffff" />
+            <Property id="SEASON_DAY_TYPE_S_REF2" value="0x00000002fffffffd" />
+            <Property id="SWITCH_SCHEDULE_REF" value="0x00000007ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000003ffffffff" type="REGULARTIMEPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="RTP1" />
+            <Property id="IDOBJ_NAME" value="RTP for Breaker Summer Weekday" />
+            <Property id="IDOBJ_ALIASNAME" value="RTP_SS1" />
+            <Property id="REGULAR_TIME_POINT_SQ_NUM" value="1" />
+            <Property id="REGULAR_TIME_POINT_VALUE1" value="400" />
+            <Property id="REGULAR_TIME_POINT_VALUE2" value="11000" />
+            <Property id="REGULAR_TIME_POINT_REF" value="0x00000004ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000003fffffffe" type="REGULARTIMEPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="RTP2" />
+            <Property id="IDOBJ_NAME" value="RTP for LoadBreakSwitch Summer Weekend" />
+            <Property id="IDOBJ_ALIASNAME" value="RTP_SS3" />
+            <Property id="REGULAR_TIME_POINT_SQ_NUM" value="1" />
+            <Property id="REGULAR_TIME_POINT_VALUE1" value="200" />
+            <Property id="REGULAR_TIME_POINT_VALUE2" value="11000" />
+            <Property id="REGULAR_TIME_POINT_REF" value="0x00000004fffffffd" />
+          </Properties>
+        </ResourceDescription>
+      </ResourceDescriptions>
+    </operation>
+  </operations>
+</delta>

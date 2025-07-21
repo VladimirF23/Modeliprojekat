@@ -102,9 +102,11 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 			// paziti na redosled
             ImportSeasons();
 			ImportDayType();
+
 			ImportBreakers();
 			ImportReclosers();
 			ImportLoadBreakSwitch();
+
 			ImportSwitchSchedule();
 			ImportRegularTimePoint();
 

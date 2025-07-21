@@ -28,10 +28,15 @@ namespace FTN.Services.NetworkModelService.DataModel.Ja
         {
 
             //pitaj zokija kako ovo ide kada imamo 2 reference
-            if (baseVoltage != 0 && (refType == TypeOfReference.Reference || refType == TypeOfReference.Both))
+            if (dayType != 0 && (refType == TypeOfReference.Reference || refType == TypeOfReference.Both))
             {
-                references[ModelCode.CONDEQ_BASVOLTAGE] = new List<long>();
-                references[ModelCode.CONDEQ_BASVOLTAGE].Add(baseVoltage);
+                references[ModelCode.SEASON_DAY_TYPE_S_REF1] = new List<long>();
+                references[ModelCode.SEASON_DAY_TYPE_S_REF2] = new List<long>();
+
+                references[ModelCode.SEASON_DAY_TYPE_S_REF1].Add(season);
+
+                references[ModelCode.SEASON_DAY_TYPE_S_REF2].Add(dayType);
+
             }
 
             base.GetReferences(references, refType);
@@ -87,6 +92,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Ja
             }
         }
 
+        //kada se dobija objekat od servera 
         public override void SetProperty(Property property)
         {
             switch (property.Id)

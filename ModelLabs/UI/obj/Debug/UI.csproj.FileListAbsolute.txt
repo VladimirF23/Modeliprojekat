@@ -1,0 +1,5 @@
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\UI\obj\Debug\MainWindow.g.cs
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\UI\obj\Debug\App.g.cs
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\UI\obj\Debug\UI_MarkupCompile.cache
+C:\Users\vladi\OneDrive\Desktop\MP\Projekat\ModelLabsProjekat\Modeliprojekat\ModelLabs\UI\obj\Debug\UI_MarkupCompile.lref

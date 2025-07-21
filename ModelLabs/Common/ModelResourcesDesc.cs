@@ -870,17 +870,23 @@ namespace FTN.Common
 		{			
 			typeIdsInInsertOrder.Add(ModelCode.SEASON);
 			typeIdsInInsertOrder.Add(ModelCode.DAYTYPE);
-			typeIdsInInsertOrder.Add(ModelCode.REGULAR_TIME_POINT);
-			typeIdsInInsertOrder.Add(ModelCode.SWITCH_SCHEDULE);
 			typeIdsInInsertOrder.Add(ModelCode.BREAKER);
             typeIdsInInsertOrder.Add(ModelCode.RECLOSER);
             typeIdsInInsertOrder.Add(ModelCode.LOAD_BREAK_SWITCH);
 
+            typeIdsInInsertOrder.Add(ModelCode.SWITCH_SCHEDULE);
+            typeIdsInInsertOrder.Add(ModelCode.REGULAR_TIME_POINT);
+
+
 
         }
 
-        //DODATI sve atribute koji su niz refrenci 0 *
-
+        //DODATI sve atribute koji su lista refrenci 
+        /*
+		 Pošto vrednost atribut tipa lista referenci ne može da se postavi od 
+		strane klijenta, već je određuje servis, potrebno je navesti njegov 
+		 ModelCode, dodajemo klase koje cuvaju listu referenci tj imaju  0..* ili 1..*,  season sa one strane pise 0..*
+		 */
         private void InitializeNotSettablePropertyIds()
 		{			
 			notSettablePropertyIds.Add(ModelCode.IDOBJ_GID);
@@ -888,6 +894,10 @@ namespace FTN.Common
             notSettablePropertyIds.Add(ModelCode.DAYTYPE_REF);
             notSettablePropertyIds.Add(ModelCode.REGULAR_IS_REF);
             notSettablePropertyIds.Add(ModelCode.SWITCH_REF);
+
+
+
+
 
 
             // za ReguralIntervalSchedule ce imati atribut TimePoints, za taj atribut u excelu nadjemo modelcode i tako za sve atribute

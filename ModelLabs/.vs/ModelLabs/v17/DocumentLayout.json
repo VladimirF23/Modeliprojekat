@@ -3,32 +3,130 @@
   "WorkspaceRootPath": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\datamodel\\ja\\loadbrakeswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ja\\loadbrakeswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\datamodel\\ja\\recloser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ja\\recloser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\datamodel\\ja\\breaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ja\\breaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\datamodel\\ja\\protectedswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ja\\protectedswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\ui\\gda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\gda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\common\\modelcodehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modelcodehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\ui\\stringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\stringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32EE9373-A350-42AC-972B-41B2EDABA082}|NetworkModelService\\Test\\NMSTestClient\\NMSTestClient.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\test\\nmstestclient\\testgda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32EE9373-A350-42AC-972B-41B2EDABA082}|NetworkModelService\\Test\\NMSTestClient\\NMSTestClient.csproj|solutionrelative:networkmodelservice\\test\\nmstestclient\\testgda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B726FB71-D295-41EE-9644-B2B0B1BC8911}|ServiceContracts\\NetworkModelQueryContract\\NetworkModelGDAContract.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\servicecontracts\\networkmodelquerycontract\\networkmodelgdaproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B726FB71-D295-41EE-9644-B2B0B1BC8911}|ServiceContracts\\NetworkModelQueryContract\\NetworkModelGDAContract.csproj|solutionrelative:servicecontracts\\networkmodelquerycontract\\networkmodelgdaproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\gda\\genericdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|solutionrelative:networkmodelservice\\gda\\genericdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|UI||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\networkmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|solutionrelative:networkmodelservice\\networkmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C03A41C-BE4C-40A8-97D5-5DBAC0C34102}|CIMParser\\CIMParser.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\cimparser\\handler\\cimxmlreaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C03A41C-BE4C-40A8-97D5-5DBAC0C34102}|CIMParser\\CIMParser.csproj|solutionrelative:cimparser\\handler\\cimxmlreaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\datamodel\\ja\\switchschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ja\\switchschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\datamodel\\ja\\seasondaytypeschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ja\\seasondaytypeschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\cimadapter\\importer\\powertransformerconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\importer\\powertransformerconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\datamodel\\ja\\season.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ja\\season.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\datamodel\\ja\\daytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ja\\daytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\datamodel\\ja\\breaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ja\\breaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\networkmodelservice\\datamodel\\core\\identifiedobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\core\\identifiedobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\datamodel\\ja\\regulartimepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ja\\regulartimepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\networkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|solutionrelative:networkmodelservice\\networkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\cimadapter\\importer\\powertransformerimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\importer\\powertransformerimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\cimadapter\\importer\\importhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\importer\\importhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\cimadapter\\cimadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\cimadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\datamodel\\ja\\regularintervalschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ja\\regularintervalschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\networkmodelservice\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|solutionrelative:networkmodelservice\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E112FFCC-BD88-4056-99E1-0991A0E82588}|NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\NetworkModelServiceSelfHost.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\servicehost\\networkmodelserviceselfhost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E112FFCC-BD88-4056-99E1-0991A0E82588}|NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\NetworkModelServiceSelfHost.csproj|solutionrelative:networkmodelservice\\servicehost\\networkmodelserviceselfhost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E112FFCC-BD88-4056-99E1-0991A0E82588}|NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\NetworkModelServiceSelfHost.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\servicehost\\networkmodelserviceselfhost\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E112FFCC-BD88-4056-99E1-0991A0E82588}|NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\NetworkModelServiceSelfHost.csproj|solutionrelative:networkmodelservice\\servicehost\\networkmodelserviceselfhost\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C03A41C-BE4C-40A8-97D5-5DBAC0C34102}|CIMParser\\CIMParser.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\cimparser\\model\\objectattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C03A41C-BE4C-40A8-97D5-5DBAC0C34102}|CIMParser\\CIMParser.csproj|solutionrelative:cimparser\\model\\objectattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\ui\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +136,407 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoadBrakeSwitch.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\LoadBrakeSwitch.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Ja\\LoadBrakeSwitch.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\LoadBrakeSwitch.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\Ja\\LoadBrakeSwitch.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T10:54:35.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Recloser.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\Recloser.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Ja\\Recloser.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\Recloser.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\Ja\\Recloser.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAwwCcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T10:53:22.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Breaker.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\Breaker.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Ja\\Breaker.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\Breaker.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\Ja\\Breaker.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAmwFEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T10:48:02.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ModelDefines.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelDefines.cs",
-              "RelativeDocumentMoniker": "Common\\ModelDefines.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelDefines.cs",
-              "RelativeToolTip": "Common\\ModelDefines.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAIAwwEQAAABAAAAA",
+              "Title": "StringHelper.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\StringHelper.cs",
+              "RelativeDocumentMoniker": "UI\\StringHelper.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\StringHelper.cs",
+              "RelativeToolTip": "UI\\StringHelper.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T10:45:59.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProtectedSwitch.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\ProtectedSwitch.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Ja\\ProtectedSwitch.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\ProtectedSwitch.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\Ja\\ProtectedSwitch.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T10:43:43.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegularTimePoint.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\RegularTimePoint.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Ja\\RegularTimePoint.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\RegularTimePoint.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\Ja\\RegularTimePoint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T10:38:23.94Z",
+              "WhenOpened": "2025-07-21T22:22:33.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "TestGda.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\Test\\NMSTestClient\\TestGda.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\Test\\NMSTestClient\\TestGda.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\Test\\NMSTestClient\\TestGda.cs",
+              "RelativeToolTip": "NetworkModelService\\Test\\NMSTestClient\\TestGda.cs",
+              "ViewState": "AQIAAM4BAAAAAAAAAIAwwBQBAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T22:18:04.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NetworkModelGDAProxy.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\ServiceContracts\\NetworkModelQueryContract\\NetworkModelGDAProxy.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\NetworkModelQueryContract\\NetworkModelGDAProxy.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\ServiceContracts\\NetworkModelQueryContract\\NetworkModelGDAProxy.cs",
+              "RelativeToolTip": "ServiceContracts\\NetworkModelQueryContract\\NetworkModelGDAProxy.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T22:17:55.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GDA.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\GDA.cs",
+              "RelativeDocumentMoniker": "UI\\GDA.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\GDA.cs",
+              "RelativeToolTip": "UI\\GDA.cs",
+              "ViewState": "AQIAAOgAAAAAAAAAAAAkwP4AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T21:58:02.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GenericDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\GDA\\GenericDataAccess.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\GDA\\GenericDataAccess.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\GDA\\GenericDataAccess.cs",
+              "RelativeToolTip": "NetworkModelService\\GDA\\GenericDataAccess.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T21:56:10.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\App.xaml.cs",
+              "RelativeToolTip": "UI\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T21:46:30.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModelCodeHelper.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelCodeHelper.cs",
+              "RelativeDocumentMoniker": "Common\\ModelCodeHelper.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelCodeHelper.cs",
+              "RelativeToolTip": "Common\\ModelCodeHelper.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAtwCYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:25:00.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModelDefines.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelDefines.cs",
+              "RelativeDocumentMoniker": "Common\\ModelDefines.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelDefines.cs",
+              "RelativeToolTip": "Common\\ModelDefines.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAYwFcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:25:47.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UI",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\UI.csproj",
+              "RelativeDocumentMoniker": "UI\\UI.csproj",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\UI.csproj",
+              "RelativeToolTip": "UI\\UI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-21T21:46:22.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NetworkModelService.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\NetworkModelService.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\NetworkModelService.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\NetworkModelService.cs",
+              "RelativeToolTip": "NetworkModelService\\NetworkModelService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T21:38:17.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "UI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\MainWindow.xaml",
+              "RelativeToolTip": "UI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-21T21:33:20.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "UI\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T21:33:20.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CIMXMLReaderHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMParser\\Handler\\CIMXMLReaderHandler.cs",
+              "RelativeDocumentMoniker": "CIMParser\\Handler\\CIMXMLReaderHandler.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMParser\\Handler\\CIMXMLReaderHandler.cs",
+              "RelativeToolTip": "CIMParser\\Handler\\CIMXMLReaderHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:59:21.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "SwitchSchedule.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\SwitchSchedule.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Ja\\SwitchSchedule.cs",
               "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\SwitchSchedule.cs",
               "RelativeToolTip": "NetworkModelService\\DataModel\\Ja\\SwitchSchedule.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T10:34:45.754Z",
+              "WhenOpened": "2025-07-21T19:48:55.741Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SeasonDayTypeSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\SeasonDayTypeSchedule.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Ja\\SeasonDayTypeSchedule.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\SeasonDayTypeSchedule.cs",
+              "RelativeToolTip": "NetworkModelService\\DataModel\\Ja\\SeasonDayTypeSchedule.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAAGUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:43:46.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DayType.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\DayType.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Ja\\DayType.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\DayType.cs",
+              "RelativeToolTip": "NetworkModelService\\DataModel\\Ja\\DayType.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAYwAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:41:52.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Season.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\Season.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Ja\\Season.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\Season.cs",
+              "RelativeToolTip": "NetworkModelService\\DataModel\\Ja\\Season.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAqwKUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:41:34.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PowerTransformerConverter.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerConverter.cs",
+              "RelativeDocumentMoniker": "CIMAdapter\\Importer\\PowerTransformerConverter.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerConverter.cs",
+              "RelativeToolTip": "CIMAdapter\\Importer\\PowerTransformerConverter.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAswHMAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:26:58.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ImportHelper.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMAdapter\\Importer\\ImportHelper.cs",
+              "RelativeDocumentMoniker": "CIMAdapter\\Importer\\ImportHelper.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMAdapter\\Importer\\ImportHelper.cs",
+              "RelativeToolTip": "CIMAdapter\\Importer\\ImportHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:28:30.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ModelResourcesDesc.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelResourcesDesc.cs",
+              "RelativeDocumentMoniker": "Common\\ModelResourcesDesc.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelResourcesDesc.cs",
+              "RelativeToolTip": "Common\\ModelResourcesDesc.cs",
+              "ViewState": "AQIAAFYDAAAAAAAAAAAswIEDAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:16:08.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Breaker.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\Breaker.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Ja\\Breaker.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\Breaker.cs",
+              "RelativeToolTip": "NetworkModelService\\DataModel\\Ja\\Breaker.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAmwEEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:36:41.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NetworkModel.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\NetworkModel.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\NetworkModel.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\NetworkModel.cs",
+              "RelativeToolTip": "NetworkModelService\\NetworkModel.cs",
+              "ViewState": "AQIAAE4BAAAAAAAAAAApwFEBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:12:56.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PowerTransformerImporter.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerImporter.cs",
+              "RelativeDocumentMoniker": "CIMAdapter\\Importer\\PowerTransformerImporter.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerImporter.cs",
+              "RelativeToolTip": "CIMAdapter\\Importer\\PowerTransformerImporter.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAIwG0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:28:36.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegularTimePoint.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\RegularTimePoint.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Ja\\RegularTimePoint.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\RegularTimePoint.cs",
+              "RelativeToolTip": "NetworkModelService\\DataModel\\Ja\\RegularTimePoint.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAQwHYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:18:17.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IdentifiedObject.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Core\\IdentifiedObject.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Core\\IdentifiedObject.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Core\\IdentifiedObject.cs",
+              "RelativeToolTip": "NetworkModelService\\DataModel\\Core\\IdentifiedObject.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAtwMkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:04:20.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CIMAdapter.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMAdapter\\CIMAdapter.cs",
+              "RelativeDocumentMoniker": "CIMAdapter\\CIMAdapter.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMAdapter\\CIMAdapter.cs",
+              "RelativeToolTip": "CIMAdapter\\CIMAdapter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:27:03.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RegularIntervalSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\RegularIntervalSchedule.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Ja\\RegularIntervalSchedule.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\RegularIntervalSchedule.cs",
+              "RelativeToolTip": "NetworkModelService\\DataModel\\Ja\\RegularIntervalSchedule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:19:34.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\Program.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\Program.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\Program.cs",
+              "RelativeToolTip": "NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:16:08.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:06:53.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Container.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\Container.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\Container.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\Container.cs",
+              "RelativeToolTip": "NetworkModelService\\Container.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAIA7wH0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T19:02:33.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ObjectAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMParser\\Model\\ObjectAttribute.cs",
+              "RelativeDocumentMoniker": "CIMParser\\Model\\ObjectAttribute.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMParser\\Model\\ObjectAttribute.cs",
+              "RelativeToolTip": "CIMParser\\Model\\ObjectAttribute.cs",
+              "ViewState": "AQIAABcBAAAAAAAAAAAQwA8BAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T18:55:13.567Z"
             }
           ]
         }

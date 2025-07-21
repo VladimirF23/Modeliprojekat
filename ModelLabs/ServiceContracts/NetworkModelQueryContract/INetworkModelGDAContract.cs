@@ -25,6 +25,8 @@ namespace FTN.ServiceContracts
 		/// <param name="resourceId">Resource id of the entity</param>
 		/// <param name="propIds">List of requested properties</param>		
 		/// <returns>Resource description of the specified entity</returns>
+		/// 
+		//IMPLEMENTIRATI DA KORSNIK MOZE DA UNOSI ID RESOURCA KOJI NA SERVERU I DA 
 		[OperationContract]				
 		ResourceDescription GetValues(long resourceId, List<ModelCode> propIds);
 

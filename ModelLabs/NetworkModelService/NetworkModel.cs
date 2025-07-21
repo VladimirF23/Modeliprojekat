@@ -8,7 +8,6 @@ using System.Xml;
 using FTN.Common;
 using FTN.Services.NetworkModelService.DataModel;
 using FTN.Services.NetworkModelService.DataModel.Core;
-using FTN.Services.NetworkModelService.DataModel.Wires;
 
 namespace FTN.Services.NetworkModelService
 {	
@@ -228,6 +227,7 @@ namespace FTN.Services.NetworkModelService
 
 		#endregion GDA query	
 
+		//iteriramo preko svakog Resource Descriptiona
 		public UpdateResult ApplyDelta(Delta delta)
 		{
 			bool applyingStarted = false;

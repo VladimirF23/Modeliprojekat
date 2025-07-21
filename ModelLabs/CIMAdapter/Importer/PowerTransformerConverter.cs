@@ -102,21 +102,6 @@
                 PowerTransformerConverter.PopulateRegularIntervalScheduleProperties(cimSeasonDayTypeSchedule, rd, importHelper, report);
 
 
-                if (cimSeasonDayTypeSchedule.DayTypeHasValue)
-                {
-
-                    long gid = importHelper.GetMappedGID(cimSeasonDayTypeSchedule.DayType.ID);
-                    if (gid < 0)
-                    {
-                        report.Report.Append("WARNING: Convert ").Append(cimSeasonDayTypeSchedule.GetType().ToString()).Append(" rdfID = \"").Append(cimSeasonDayTypeSchedule.ID);
-                        report.Report.Append("\" - Failed to set reference to Location: rdfID \"").Append(cimSeasonDayTypeSchedule.DayType.ID).AppendLine(" \" is not mapped to GID!");
-                    }
-
-
-                    rd.AddProperty(new Property(ModelCode.SEASON_DAY_TYPE_S_REF1, gid));
-
-                }
-
                 if (cimSeasonDayTypeSchedule.SeasonHasValue)
                 {
 
@@ -125,6 +110,21 @@
                     {
                         report.Report.Append("WARNING: Convert ").Append(cimSeasonDayTypeSchedule.GetType().ToString()).Append(" rdfID = \"").Append(cimSeasonDayTypeSchedule.ID);
                         report.Report.Append("\" - Failed to set reference to Location: rdfID \"").Append(cimSeasonDayTypeSchedule.Season.ID).AppendLine(" \" is not mapped to GID!");
+                    }
+
+
+                    rd.AddProperty(new Property(ModelCode.SEASON_DAY_TYPE_S_REF1, gid));
+
+                }
+
+                if (cimSeasonDayTypeSchedule.DayTypeHasValue)
+                {
+
+                    long gid = importHelper.GetMappedGID(cimSeasonDayTypeSchedule.DayType.ID);
+                    if (gid < 0)
+                    {
+                        report.Report.Append("WARNING: Convert ").Append(cimSeasonDayTypeSchedule.GetType().ToString()).Append(" rdfID = \"").Append(cimSeasonDayTypeSchedule.ID);
+                        report.Report.Append("\" - Failed to set reference to Location: rdfID \"").Append(cimSeasonDayTypeSchedule.DayType.ID).AppendLine(" \" is not mapped to GID!");
                     }
 
 
@@ -267,7 +267,7 @@
                 }
                 if (cimSwitch.RatedCurrentHasValue)
                 {
-                    rd.AddProperty(new Property(ModelCode.SWITCH_CURRENT_FLOW, cimSwitch.RatedCurrent));
+                    rd.AddProperty(new Property(ModelCode.SWITCH_RATED_CURRENT, cimSwitch.RatedCurrent));
                 }
 
 
@@ -298,7 +298,7 @@
 
                 if (cimProtectedSwitch.BreakingCapacityHasValue)
                 {
-                    rd.AddProperty(new Property(ModelCode.PROTECTED_SWITCH_CURRENT_FLOW, cimProtectedSwitch.BreakingCapacity));
+                    rd.AddProperty(new Property(ModelCode.PROTECTED_SWITCH_BREAKING_CAPACITY, cimProtectedSwitch.BreakingCapacity));
                 }
             }
 

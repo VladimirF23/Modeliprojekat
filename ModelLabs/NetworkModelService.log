@@ -1,0 +1,594 @@
+7/21/2025 8:32:56 PM : Starting Network Model Serivice...
+7/21/2025 8:32:56 PM : The WCF service GenericDataAccess is ready.
+7/21/2025 8:32:56 PM : Endpoints:
+7/21/2025 8:32:56 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+7/21/2025 8:32:56 PM : Connection string: ../NetworkModelData.data
+7/21/2025 8:32:56 PM : Trace level: Info
+7/21/2025 8:32:56 PM : The Network Model Service is started.
+7/21/2025 8:32:56 PM : Press <Enter> to stop the service.
+7/21/2025 8:33:03 PM : Applying  delta to network model.
+7/21/2025 8:33:03 PM : Inserting entity with GID (0000000100000001).
+7/21/2025 8:33:03 PM : Inserting entity with GID (0000000100000002).
+7/21/2025 8:33:03 PM : Inserting entity with GID (0000000100000003).
+7/21/2025 8:33:03 PM : Inserting entity with GID (0000000200000001).
+7/21/2025 8:33:03 PM : Inserting entity with GID (0000000200000002).
+7/21/2025 8:33:03 PM : Inserting entity with GID (0000000200000003).
+7/21/2025 8:33:03 PM : Inserting entity with GID (0000000300000001).
+7/21/2025 8:33:03 PM : Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64)
+7/21/2025 8:33:03 PM : Failed to insert entity (GID = 0x0000000300000001) into model. Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64)
+7/21/2025 8:33:03 PM : Applying delta to network model failed. Failed to insert entity (GID = 0x0000000300000001) into model. Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64).
+7/21/2025 8:36:59 PM : Starting Network Model Serivice...
+7/21/2025 8:36:59 PM : Inserting entity with GID (0000000100000001).
+7/21/2025 8:36:59 PM : Inserting entity with GID (0000000100000002).
+7/21/2025 8:36:59 PM : Inserting entity with GID (0000000100000003).
+7/21/2025 8:36:59 PM : Inserting entity with GID (0000000200000001).
+7/21/2025 8:36:59 PM : Inserting entity with GID (0000000200000002).
+7/21/2025 8:36:59 PM : Inserting entity with GID (0000000200000003).
+7/21/2025 8:36:59 PM : Inserting entity with GID (0000000300000001).
+7/21/2025 8:37:26 PM : Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64)
+7/21/2025 8:37:26 PM : Failed to insert entity (GID = 0x0000000300000001) into model. Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64)
+7/21/2025 8:37:26 PM : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000300000001) into model. Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64)
+7/21/2025 8:37:27 PM : The WCF service GenericDataAccess is ready.
+7/21/2025 8:37:27 PM : Endpoints:
+7/21/2025 8:37:27 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+7/21/2025 8:37:27 PM : Connection string: ../NetworkModelData.data
+7/21/2025 8:37:27 PM : Trace level: Info
+7/21/2025 8:37:27 PM : The Network Model Service is started.
+7/21/2025 8:37:27 PM : Press <Enter> to stop the service.
+7/21/2025 8:37:31 PM : Applying  delta to network model.
+7/21/2025 8:37:31 PM : Inserting entity with GID (0000000100000004).
+7/21/2025 8:37:31 PM : Inserting entity with GID (0000000100000005).
+7/21/2025 8:37:31 PM : Inserting entity with GID (0000000100000006).
+7/21/2025 8:37:31 PM : Inserting entity with GID (0000000200000004).
+7/21/2025 8:37:31 PM : Inserting entity with GID (0000000200000005).
+7/21/2025 8:37:31 PM : Inserting entity with GID (0000000200000006).
+7/21/2025 8:37:31 PM : Inserting entity with GID (0000000300000002).
+7/21/2025 8:42:41 PM : Starting Network Model Serivice...
+7/21/2025 8:42:41 PM : Inserting entity with GID (0000000100000001).
+7/21/2025 8:42:44 PM : Inserting entity with GID (0000000100000002).
+7/21/2025 8:42:44 PM : Inserting entity with GID (0000000100000003).
+7/21/2025 8:42:44 PM : Inserting entity with GID (0000000200000001).
+7/21/2025 8:42:44 PM : Inserting entity with GID (0000000200000002).
+7/21/2025 8:42:44 PM : Inserting entity with GID (0000000200000003).
+7/21/2025 8:42:44 PM : Inserting entity with GID (0000000300000001).
+7/21/2025 8:42:46 PM : Unknown property id = 1369094286720827652 for entity (GID = 0x0000000300000001).
+7/21/2025 8:42:46 PM : Failed to insert entity (GID = 0x0000000300000001) into model. Unknown property id = 1369094286720827652 for entity (GID = 0x0000000300000001).
+7/21/2025 8:42:46 PM : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000300000001) into model. Unknown property id = 1369094286720827652 for entity (GID = 0x0000000300000001).
+7/21/2025 8:42:46 PM : The WCF service GenericDataAccess is ready.
+7/21/2025 8:42:46 PM : Endpoints:
+7/21/2025 8:42:46 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+7/21/2025 8:42:46 PM : Connection string: ../NetworkModelData.data
+7/21/2025 8:42:46 PM : Trace level: Info
+7/21/2025 8:42:46 PM : The Network Model Service is started.
+7/21/2025 8:42:46 PM : Press <Enter> to stop the service.
+7/21/2025 8:42:56 PM : Applying  delta to network model.
+7/21/2025 8:42:56 PM : Inserting entity with GID (0000000100000004).
+7/21/2025 8:42:56 PM : Inserting entity with GID (0000000100000005).
+7/21/2025 8:42:56 PM : Inserting entity with GID (0000000100000006).
+7/21/2025 8:42:56 PM : Inserting entity with GID (0000000200000004).
+7/21/2025 8:42:56 PM : Inserting entity with GID (0000000200000005).
+7/21/2025 8:42:56 PM : Inserting entity with GID (0000000200000006).
+7/21/2025 8:42:56 PM : Inserting entity with GID (0000000300000002).
+7/21/2025 8:42:57 PM : Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 8:42:57 PM : Applying delta to network model failed. Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list..
+7/21/2025 8:53:51 PM : Starting Network Model Serivice...
+7/21/2025 8:53:51 PM : Inserting entity with GID (0000000100000001).
+7/21/2025 8:53:51 PM : Inserting entity with GID (0000000100000002).
+7/21/2025 8:53:51 PM : Inserting entity with GID (0000000100000003).
+7/21/2025 8:53:51 PM : Inserting entity with GID (0000000200000001).
+7/21/2025 8:53:51 PM : Inserting entity with GID (0000000200000002).
+7/21/2025 8:53:51 PM : Inserting entity with GID (0000000200000003).
+7/21/2025 8:53:51 PM : Inserting entity with GID (0000000300000001).
+7/21/2025 8:53:51 PM : Unknown property id = 1369094286720827652 for entity (GID = 0x0000000300000001).
+7/21/2025 8:53:51 PM : Failed to insert entity (GID = 0x0000000300000001) into model. Unknown property id = 1369094286720827652 for entity (GID = 0x0000000300000001).
+7/21/2025 8:53:51 PM : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000300000001) into model. Unknown property id = 1369094286720827652 for entity (GID = 0x0000000300000001).
+7/21/2025 8:53:51 PM : Inserting entity with GID (0000000100000004).
+7/21/2025 8:53:51 PM : Inserting entity with GID (0000000100000005).
+7/21/2025 8:53:51 PM : Inserting entity with GID (0000000100000006).
+7/21/2025 8:53:51 PM : Inserting entity with GID (0000000200000004).
+7/21/2025 8:53:51 PM : Inserting entity with GID (0000000200000005).
+7/21/2025 8:53:51 PM : Inserting entity with GID (0000000200000006).
+7/21/2025 8:53:51 PM : Inserting entity with GID (0000000300000002).
+7/21/2025 8:53:52 PM : Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 8:53:52 PM : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 8:53:52 PM : The WCF service GenericDataAccess is ready.
+7/21/2025 8:53:52 PM : Endpoints:
+7/21/2025 8:53:52 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+7/21/2025 8:53:52 PM : Connection string: ../NetworkModelData.data
+7/21/2025 8:53:52 PM : Trace level: Info
+7/21/2025 8:53:52 PM : The Network Model Service is started.
+7/21/2025 8:53:52 PM : Press <Enter> to stop the service.
+7/21/2025 8:53:56 PM : Applying  delta to network model.
+7/21/2025 8:53:56 PM : Inserting entity with GID (0000000100000007).
+7/21/2025 8:53:56 PM : Inserting entity with GID (0000000100000008).
+7/21/2025 8:53:56 PM : Inserting entity with GID (0000000100000009).
+7/21/2025 8:53:56 PM : Inserting entity with GID (0000000200000007).
+7/21/2025 8:53:56 PM : Inserting entity with GID (0000000200000008).
+7/21/2025 8:53:56 PM : Inserting entity with GID (0000000200000009).
+7/21/2025 8:53:56 PM : Inserting entity with GID (0000000300000003).
+7/21/2025 8:53:56 PM : Failed to insert entity (GID = 0x0000000300000003) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 8:53:56 PM : Applying delta to network model failed. Failed to insert entity (GID = 0x0000000300000003) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list..
+7/21/2025 8:58:37 PM : Starting Network Model Serivice...
+7/21/2025 8:58:37 PM : Inserting entity with GID (0000000100000001).
+7/21/2025 8:59:08 PM : Inserting entity with GID (0000000100000002).
+7/21/2025 8:59:29 PM : Inserting entity with GID (0000000100000003).
+7/21/2025 8:59:31 PM : Inserting entity with GID (0000000200000001).
+7/21/2025 8:59:32 PM : Inserting entity with GID (0000000200000002).
+7/21/2025 8:59:33 PM : Inserting entity with GID (0000000200000003).
+7/21/2025 8:59:36 PM : Inserting entity with GID (0000000300000001).
+7/21/2025 8:59:39 PM : Unknown property id = 1369094286720827652 for entity (GID = 0x0000000300000001).
+7/21/2025 8:59:39 PM : Failed to insert entity (GID = 0x0000000300000001) into model. Unknown property id = 1369094286720827652 for entity (GID = 0x0000000300000001).
+7/21/2025 8:59:39 PM : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000300000001) into model. Unknown property id = 1369094286720827652 for entity (GID = 0x0000000300000001).
+7/21/2025 8:59:39 PM : Inserting entity with GID (0000000100000004).
+7/21/2025 9:02:34 PM : Starting Network Model Serivice...
+7/21/2025 9:02:34 PM : Inserting entity with GID (0000000100000001).
+7/21/2025 9:02:56 PM : Inserting entity with GID (0000000100000002).
+7/21/2025 9:02:57 PM : Inserting entity with GID (0000000100000003).
+7/21/2025 9:02:58 PM : Inserting entity with GID (0000000200000001).
+7/21/2025 9:02:59 PM : Inserting entity with GID (0000000200000002).
+7/21/2025 9:02:59 PM : Inserting entity with GID (0000000200000003).
+7/21/2025 9:03:00 PM : Inserting entity with GID (0000000300000001).
+7/21/2025 9:03:01 PM : Unknown property id = 1369094286720827652 for entity (GID = 0x0000000300000001).
+7/21/2025 9:03:01 PM : Failed to insert entity (GID = 0x0000000300000001) into model. Unknown property id = 1369094286720827652 for entity (GID = 0x0000000300000001).
+7/21/2025 9:03:01 PM : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000300000001) into model. Unknown property id = 1369094286720827652 for entity (GID = 0x0000000300000001).
+7/21/2025 9:03:01 PM : Inserting entity with GID (0000000100000004).
+7/21/2025 9:09:27 PM : Starting Network Model Serivice...
+7/21/2025 9:16:16 PM : Starting Network Model Serivice...
+7/21/2025 9:16:24 PM : The WCF service GenericDataAccess is ready.
+7/21/2025 9:16:24 PM : Endpoints:
+7/21/2025 9:16:24 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+7/21/2025 9:16:24 PM : Connection string: ../NetworkModelData.data
+7/21/2025 9:16:24 PM : Trace level: Info
+7/21/2025 9:16:24 PM : The Network Model Service is started.
+7/21/2025 9:16:24 PM : Press <Enter> to stop the service.
+7/21/2025 9:16:41 PM : Applying  delta to network model.
+7/21/2025 9:16:41 PM : Inserting entity with GID (0000000100000001).
+7/21/2025 9:16:48 PM : Inserting entity with GID (0000000100000002).
+7/21/2025 9:16:48 PM : Inserting entity with GID (0000000100000003).
+7/21/2025 9:16:48 PM : Inserting entity with GID (0000000200000001).
+7/21/2025 9:16:48 PM : Inserting entity with GID (0000000200000002).
+7/21/2025 9:16:48 PM : Inserting entity with GID (0000000200000003).
+7/21/2025 9:16:48 PM : Inserting entity with GID (0000000300000001).
+7/21/2025 9:16:48 PM : Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:16:48 PM : Applying delta to network model failed. Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list..
+7/21/2025 9:18:48 PM : Starting Network Model Serivice...
+7/21/2025 9:18:48 PM : Inserting entity with GID (0000000100000001).
+7/21/2025 9:18:48 PM : Inserting entity with GID (0000000100000002).
+7/21/2025 9:18:48 PM : Inserting entity with GID (0000000100000003).
+7/21/2025 9:18:48 PM : Inserting entity with GID (0000000200000001).
+7/21/2025 9:18:48 PM : Inserting entity with GID (0000000200000002).
+7/21/2025 9:18:48 PM : Inserting entity with GID (0000000200000003).
+7/21/2025 9:18:48 PM : Inserting entity with GID (0000000300000001).
+7/21/2025 9:18:48 PM : Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:18:48 PM : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:18:49 PM : The WCF service GenericDataAccess is ready.
+7/21/2025 9:18:49 PM : Endpoints:
+7/21/2025 9:18:49 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+7/21/2025 9:18:49 PM : Connection string: ../NetworkModelData.data
+7/21/2025 9:18:49 PM : Trace level: Info
+7/21/2025 9:18:49 PM : The Network Model Service is started.
+7/21/2025 9:18:49 PM : Press <Enter> to stop the service.
+7/21/2025 9:18:58 PM : Applying  delta to network model.
+7/21/2025 9:18:58 PM : Inserting entity with GID (0000000100000004).
+7/21/2025 9:18:58 PM : Inserting entity with GID (0000000100000005).
+7/21/2025 9:18:58 PM : Inserting entity with GID (0000000100000006).
+7/21/2025 9:18:58 PM : Inserting entity with GID (0000000200000004).
+7/21/2025 9:18:58 PM : Inserting entity with GID (0000000200000005).
+7/21/2025 9:18:58 PM : Inserting entity with GID (0000000200000006).
+7/21/2025 9:18:58 PM : Inserting entity with GID (0000000300000002).
+7/21/2025 9:18:58 PM : Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:18:58 PM : Applying delta to network model failed. Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list..
+7/21/2025 9:20:35 PM : Starting Network Model Serivice...
+7/21/2025 9:20:45 PM : Inserting entity with GID (0000000100000001).
+7/21/2025 9:21:23 PM : Inserting entity with GID (0000000100000002).
+7/21/2025 9:21:32 PM : Inserting entity with GID (0000000100000003).
+7/21/2025 9:21:34 PM : Inserting entity with GID (0000000200000001).
+7/21/2025 9:21:34 PM : Inserting entity with GID (0000000200000002).
+7/21/2025 9:21:35 PM : Inserting entity with GID (0000000200000003).
+7/21/2025 9:21:36 PM : Inserting entity with GID (0000000300000001).
+7/21/2025 9:21:36 PM : Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:21:36 PM : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:21:36 PM : Inserting entity with GID (0000000100000004).
+7/21/2025 9:22:11 PM : Starting Network Model Serivice...
+7/21/2025 9:22:11 PM : Inserting entity with GID (0000000100000001).
+7/21/2025 9:22:13 PM : Inserting entity with GID (0000000100000002).
+7/21/2025 9:22:14 PM : Inserting entity with GID (0000000100000003).
+7/21/2025 9:22:16 PM : Inserting entity with GID (0000000200000001).
+7/21/2025 9:22:25 PM : Inserting entity with GID (0000000200000002).
+7/21/2025 9:22:31 PM : Inserting entity with GID (0000000200000003).
+7/21/2025 9:22:34 PM : Inserting entity with GID (0000000300000001).
+7/21/2025 9:30:19 PM : Starting Network Model Serivice...
+7/21/2025 9:30:19 PM : Inserting entity with GID (0000000100000001).
+7/21/2025 9:30:22 PM : Inserting entity with GID (0000000100000002).
+7/21/2025 9:30:22 PM : Inserting entity with GID (0000000100000003).
+7/21/2025 9:30:22 PM : Inserting entity with GID (0000000200000001).
+7/21/2025 9:30:22 PM : Inserting entity with GID (0000000200000002).
+7/21/2025 9:30:22 PM : Inserting entity with GID (0000000200000003).
+7/21/2025 9:30:22 PM : Inserting entity with GID (0000000300000001).
+7/21/2025 9:30:22 PM : Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:30:22 PM : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:30:22 PM : Inserting entity with GID (0000000100000004).
+7/21/2025 9:30:22 PM : Inserting entity with GID (0000000100000005).
+7/21/2025 9:30:22 PM : Inserting entity with GID (0000000100000006).
+7/21/2025 9:30:22 PM : Inserting entity with GID (0000000200000004).
+7/21/2025 9:30:22 PM : Inserting entity with GID (0000000200000005).
+7/21/2025 9:30:22 PM : Inserting entity with GID (0000000200000006).
+7/21/2025 9:30:22 PM : Inserting entity with GID (0000000300000002).
+7/21/2025 9:30:22 PM : Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:30:22 PM : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:30:23 PM : The WCF service GenericDataAccess is ready.
+7/21/2025 9:30:23 PM : Endpoints:
+7/21/2025 9:30:23 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+7/21/2025 9:30:23 PM : Connection string: ../NetworkModelData.data
+7/21/2025 9:30:23 PM : Trace level: Info
+7/21/2025 9:30:23 PM : The Network Model Service is started.
+7/21/2025 9:30:23 PM : Press <Enter> to stop the service.
+7/21/2025 9:30:31 PM : Applying  delta to network model.
+7/21/2025 9:30:31 PM : Inserting entity with GID (0000000100000007).
+7/21/2025 9:30:31 PM : Inserting entity with GID (0000000100000008).
+7/21/2025 9:30:31 PM : Inserting entity with GID (0000000100000009).
+7/21/2025 9:30:31 PM : Inserting entity with GID (0000000200000007).
+7/21/2025 9:30:31 PM : Inserting entity with GID (0000000200000008).
+7/21/2025 9:30:31 PM : Inserting entity with GID (0000000200000009).
+7/21/2025 9:30:31 PM : Inserting entity with GID (0000000500000001).
+7/21/2025 9:30:31 PM : Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64)
+7/21/2025 9:30:31 PM : Failed to insert entity (GID = 0x0000000500000001) into model. Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64)
+7/21/2025 9:30:31 PM : Applying delta to network model failed. Failed to insert entity (GID = 0x0000000500000001) into model. Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64).
+7/21/2025 9:34:35 PM : Starting Network Model Serivice...
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000100000001).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000100000002).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000100000003).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000200000001).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000200000002).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000200000003).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000300000001).
+7/21/2025 9:34:35 PM : Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:34:35 PM : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000100000004).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000100000005).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000100000006).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000200000004).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000200000005).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000200000006).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000300000002).
+7/21/2025 9:34:35 PM : Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:34:35 PM : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000100000007).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000100000008).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000100000009).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000200000007).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000200000008).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000200000009).
+7/21/2025 9:34:35 PM : Inserting entity with GID (0000000500000001).
+7/21/2025 9:34:35 PM : Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64)
+7/21/2025 9:34:35 PM : Failed to insert entity (GID = 0x0000000500000001) into model. Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64)
+7/21/2025 9:34:35 PM : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000500000001) into model. Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64)
+7/21/2025 9:34:36 PM : The WCF service GenericDataAccess is ready.
+7/21/2025 9:34:36 PM : Endpoints:
+7/21/2025 9:34:36 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+7/21/2025 9:34:36 PM : Connection string: ../NetworkModelData.data
+7/21/2025 9:34:36 PM : Trace level: Info
+7/21/2025 9:34:36 PM : The Network Model Service is started.
+7/21/2025 9:34:36 PM : Press <Enter> to stop the service.
+7/21/2025 9:34:39 PM : Applying  delta to network model.
+7/21/2025 9:34:39 PM : Inserting entity with GID (000000010000000a).
+7/21/2025 9:34:39 PM : Inserting entity with GID (000000010000000b).
+7/21/2025 9:34:39 PM : Inserting entity with GID (000000010000000c).
+7/21/2025 9:34:39 PM : Inserting entity with GID (000000020000000a).
+7/21/2025 9:34:39 PM : Inserting entity with GID (000000020000000b).
+7/21/2025 9:34:39 PM : Inserting entity with GID (000000020000000c).
+7/21/2025 9:34:39 PM : Inserting entity with GID (0000000500000002).
+7/21/2025 9:34:39 PM : Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64)
+7/21/2025 9:34:39 PM : Failed to insert entity (GID = 0x0000000500000002) into model. Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64)
+7/21/2025 9:34:39 PM : Applying delta to network model failed. Failed to insert entity (GID = 0x0000000500000002) into model. Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64).
+7/21/2025 9:37:10 PM : Starting Network Model Serivice...
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000100000001).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000100000002).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000100000003).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000200000001).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000200000002).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000200000003).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000300000001).
+7/21/2025 9:37:10 PM : Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:37:10 PM : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000100000004).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000100000005).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000100000006).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000200000004).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000200000005).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000200000006).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000300000002).
+7/21/2025 9:37:10 PM : Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:37:10 PM : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000100000007).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000100000008).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000100000009).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000200000007).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000200000008).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000200000009).
+7/21/2025 9:37:10 PM : Inserting entity with GID (0000000500000001).
+7/21/2025 9:39:02 PM : Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64)
+7/21/2025 9:39:02 PM : Failed to insert entity (GID = 0x0000000500000001) into model. Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64)
+7/21/2025 9:39:02 PM : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000500000001) into model. Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64)
+7/21/2025 9:39:02 PM : Inserting entity with GID (000000010000000a).
+7/21/2025 9:39:02 PM : Inserting entity with GID (000000010000000b).
+7/21/2025 9:39:02 PM : Inserting entity with GID (000000010000000c).
+7/21/2025 9:39:02 PM : Inserting entity with GID (000000020000000a).
+7/21/2025 9:39:02 PM : Inserting entity with GID (000000020000000b).
+7/21/2025 9:39:02 PM : Inserting entity with GID (000000020000000c).
+7/21/2025 9:39:02 PM : Inserting entity with GID (0000000500000002).
+7/21/2025 9:40:48 PM : Starting Network Model Serivice...
+7/21/2025 9:40:48 PM : Inserting entity with GID (0000000100000001).
+7/21/2025 9:40:48 PM : Inserting entity with GID (0000000100000002).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000100000003).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000200000001).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000200000002).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000200000003).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000300000001).
+7/21/2025 9:40:49 PM : Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:40:49 PM : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000100000004).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000100000005).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000100000006).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000200000004).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000200000005).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000200000006).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000300000002).
+7/21/2025 9:40:49 PM : Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:40:49 PM : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000100000007).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000100000008).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000100000009).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000200000007).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000200000008).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000200000009).
+7/21/2025 9:40:49 PM : Inserting entity with GID (0000000500000001).
+7/21/2025 9:40:52 PM : Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000001).
+7/21/2025 9:40:52 PM : Failed to insert entity (GID = 0x0000000500000001) into model. Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000001).
+7/21/2025 9:40:52 PM : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000500000001) into model. Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000001).
+7/21/2025 9:40:52 PM : Inserting entity with GID (000000010000000a).
+7/21/2025 9:40:52 PM : Inserting entity with GID (000000010000000b).
+7/21/2025 9:40:52 PM : Inserting entity with GID (000000010000000c).
+7/21/2025 9:40:52 PM : Inserting entity with GID (000000020000000a).
+7/21/2025 9:40:52 PM : Inserting entity with GID (000000020000000b).
+7/21/2025 9:40:52 PM : Inserting entity with GID (000000020000000c).
+7/21/2025 9:40:52 PM : Inserting entity with GID (0000000500000002).
+7/21/2025 9:40:52 PM : Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000002).
+7/21/2025 9:40:52 PM : Failed to insert entity (GID = 0x0000000500000002) into model. Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000002).
+7/21/2025 9:40:52 PM : Error while applying delta (id = 4) during service initialization. Failed to insert entity (GID = 0x0000000500000002) into model. Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000002).
+7/21/2025 9:40:53 PM : The WCF service GenericDataAccess is ready.
+7/21/2025 9:40:53 PM : Endpoints:
+7/21/2025 9:40:53 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+7/21/2025 9:40:53 PM : Connection string: ../NetworkModelData.data
+7/21/2025 9:40:53 PM : Trace level: Info
+7/21/2025 9:40:53 PM : The Network Model Service is started.
+7/21/2025 9:40:53 PM : Press <Enter> to stop the service.
+7/21/2025 9:41:08 PM : Applying  delta to network model.
+7/21/2025 9:41:08 PM : Inserting entity with GID (000000010000000d).
+7/21/2025 9:41:08 PM : Inserting entity with GID (000000010000000e).
+7/21/2025 9:41:08 PM : Inserting entity with GID (000000010000000f).
+7/21/2025 9:41:08 PM : Inserting entity with GID (000000020000000d).
+7/21/2025 9:41:08 PM : Inserting entity with GID (000000020000000e).
+7/21/2025 9:41:08 PM : Inserting entity with GID (000000020000000f).
+7/21/2025 9:41:08 PM : Inserting entity with GID (0000000500000003).
+7/21/2025 9:41:08 PM : Inserting entity with GID (0000000600000001).
+7/21/2025 9:41:08 PM : Inserting entity with GID (0000000700000001).
+7/21/2025 9:41:08 PM : Inserting entity with GID (0000000400000001).
+7/21/2025 9:41:08 PM : Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x000000020000000d).
+7/21/2025 9:41:08 PM : Failed to insert entity (GID = 0x0000000400000001) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x000000020000000d).
+7/21/2025 9:41:08 PM : Applying delta to network model failed. Failed to insert entity (GID = 0x0000000400000001) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x000000020000000d)..
+7/21/2025 9:44:20 PM : Starting Network Model Serivice...
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000100000001).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000100000002).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000100000003).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000200000001).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000200000002).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000200000003).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000300000001).
+7/21/2025 9:44:21 PM : Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:44:21 PM : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000100000004).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000100000005).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000100000006).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000200000004).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000200000005).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000200000006).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000300000002).
+7/21/2025 9:44:21 PM : Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:44:21 PM : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000100000007).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000100000008).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000100000009).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000200000007).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000200000008).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000200000009).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000500000001).
+7/21/2025 9:44:21 PM : Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000001).
+7/21/2025 9:44:21 PM : Failed to insert entity (GID = 0x0000000500000001) into model. Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000001).
+7/21/2025 9:44:21 PM : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000500000001) into model. Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000001).
+7/21/2025 9:44:21 PM : Inserting entity with GID (000000010000000a).
+7/21/2025 9:44:21 PM : Inserting entity with GID (000000010000000b).
+7/21/2025 9:44:21 PM : Inserting entity with GID (000000010000000c).
+7/21/2025 9:44:21 PM : Inserting entity with GID (000000020000000a).
+7/21/2025 9:44:21 PM : Inserting entity with GID (000000020000000b).
+7/21/2025 9:44:21 PM : Inserting entity with GID (000000020000000c).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000500000002).
+7/21/2025 9:44:21 PM : Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000002).
+7/21/2025 9:44:21 PM : Failed to insert entity (GID = 0x0000000500000002) into model. Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000002).
+7/21/2025 9:44:21 PM : Error while applying delta (id = 4) during service initialization. Failed to insert entity (GID = 0x0000000500000002) into model. Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000002).
+7/21/2025 9:44:21 PM : Inserting entity with GID (000000010000000d).
+7/21/2025 9:44:21 PM : Inserting entity with GID (000000010000000e).
+7/21/2025 9:44:21 PM : Inserting entity with GID (000000010000000f).
+7/21/2025 9:44:21 PM : Inserting entity with GID (000000020000000d).
+7/21/2025 9:44:21 PM : Inserting entity with GID (000000020000000e).
+7/21/2025 9:44:21 PM : Inserting entity with GID (000000020000000f).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000500000003).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000600000001).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000700000001).
+7/21/2025 9:44:21 PM : Inserting entity with GID (0000000400000001).
+7/21/2025 9:44:21 PM : Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x000000020000000d).
+7/21/2025 9:44:21 PM : Failed to insert entity (GID = 0x0000000400000001) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x000000020000000d).
+7/21/2025 9:44:21 PM : Error while applying delta (id = 5) during service initialization. Failed to insert entity (GID = 0x0000000400000001) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x000000020000000d).
+7/21/2025 9:44:21 PM : The WCF service GenericDataAccess is ready.
+7/21/2025 9:44:21 PM : Endpoints:
+7/21/2025 9:44:21 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+7/21/2025 9:44:21 PM : Connection string: ../NetworkModelData.data
+7/21/2025 9:44:21 PM : Trace level: Info
+7/21/2025 9:44:21 PM : The Network Model Service is started.
+7/21/2025 9:44:21 PM : Press <Enter> to stop the service.
+7/21/2025 9:44:33 PM : Applying  delta to network model.
+7/21/2025 9:44:33 PM : Inserting entity with GID (0000000100000010).
+7/21/2025 9:44:33 PM : Inserting entity with GID (0000000100000011).
+7/21/2025 9:44:33 PM : Inserting entity with GID (0000000100000012).
+7/21/2025 9:44:33 PM : Inserting entity with GID (0000000200000010).
+7/21/2025 9:44:33 PM : Inserting entity with GID (0000000200000011).
+7/21/2025 9:44:33 PM : Inserting entity with GID (0000000200000012).
+7/21/2025 9:44:33 PM : Inserting entity with GID (0000000500000004).
+7/21/2025 9:44:33 PM : Inserting entity with GID (0000000600000002).
+7/21/2025 9:44:33 PM : Inserting entity with GID (0000000700000002).
+7/21/2025 9:44:33 PM : Inserting entity with GID (0000000400000002).
+7/21/2025 9:44:33 PM : Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000010).
+7/21/2025 9:44:33 PM : Failed to insert entity (GID = 0x0000000400000002) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000010).
+7/21/2025 9:44:33 PM : Applying delta to network model failed. Failed to insert entity (GID = 0x0000000400000002) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000010)..
+7/21/2025 9:47:58 PM : Applying  delta to network model.
+7/21/2025 9:47:58 PM : Inserting entity with GID (0000000100000013).
+7/21/2025 9:47:58 PM : Inserting entity with GID (0000000100000014).
+7/21/2025 9:47:58 PM : Inserting entity with GID (0000000100000015).
+7/21/2025 9:47:58 PM : Inserting entity with GID (0000000200000013).
+7/21/2025 9:47:58 PM : Inserting entity with GID (0000000200000014).
+7/21/2025 9:47:58 PM : Inserting entity with GID (0000000200000015).
+7/21/2025 9:47:58 PM : Inserting entity with GID (0000000500000005).
+7/21/2025 9:47:58 PM : Inserting entity with GID (0000000600000003).
+7/21/2025 9:47:58 PM : Inserting entity with GID (0000000700000003).
+7/21/2025 9:47:58 PM : Inserting entity with GID (0000000400000003).
+7/21/2025 9:47:58 PM : Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000013).
+7/21/2025 9:47:58 PM : Failed to insert entity (GID = 0x0000000400000003) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000013).
+7/21/2025 9:47:58 PM : Applying delta to network model failed. Failed to insert entity (GID = 0x0000000400000003) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000013)..
+7/21/2025 9:54:28 PM : Applying  delta to network model.
+7/21/2025 9:54:28 PM : Inserting entity with GID (0000000100000016).
+7/21/2025 9:54:28 PM : Inserting entity with GID (0000000100000017).
+7/21/2025 9:54:28 PM : Inserting entity with GID (0000000100000018).
+7/21/2025 9:54:28 PM : Inserting entity with GID (0000000200000016).
+7/21/2025 9:54:28 PM : Inserting entity with GID (0000000200000017).
+7/21/2025 9:54:28 PM : Inserting entity with GID (0000000200000018).
+7/21/2025 9:54:28 PM : Inserting entity with GID (0000000500000006).
+7/21/2025 9:54:28 PM : Inserting entity with GID (0000000600000004).
+7/21/2025 9:54:28 PM : Inserting entity with GID (0000000700000004).
+7/21/2025 9:54:28 PM : Inserting entity with GID (0000000400000004).
+7/21/2025 9:54:28 PM : Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000016).
+7/21/2025 9:54:28 PM : Failed to insert entity (GID = 0x0000000400000004) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000016).
+7/21/2025 9:54:28 PM : Applying delta to network model failed. Failed to insert entity (GID = 0x0000000400000004) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000016)..
+7/21/2025 9:57:17 PM : Starting Network Model Serivice...
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000001).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000002).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000003).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000001).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000002).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000003).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000300000001).
+7/21/2025 9:57:17 PM : Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:57:17 PM : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000300000001) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000004).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000005).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000006).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000004).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000005).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000006).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000300000002).
+7/21/2025 9:57:17 PM : Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:57:17 PM : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000300000002) into model. Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000007).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000008).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000009).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000007).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000008).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000009).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000500000001).
+7/21/2025 9:57:17 PM : Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000001).
+7/21/2025 9:57:17 PM : Failed to insert entity (GID = 0x0000000500000001) into model. Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000001).
+7/21/2025 9:57:17 PM : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000500000001) into model. Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000001).
+7/21/2025 9:57:17 PM : Inserting entity with GID (000000010000000a).
+7/21/2025 9:57:17 PM : Inserting entity with GID (000000010000000b).
+7/21/2025 9:57:17 PM : Inserting entity with GID (000000010000000c).
+7/21/2025 9:57:17 PM : Inserting entity with GID (000000020000000a).
+7/21/2025 9:57:17 PM : Inserting entity with GID (000000020000000b).
+7/21/2025 9:57:17 PM : Inserting entity with GID (000000020000000c).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000500000002).
+7/21/2025 9:57:17 PM : Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000002).
+7/21/2025 9:57:17 PM : Failed to insert entity (GID = 0x0000000500000002) into model. Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000002).
+7/21/2025 9:57:17 PM : Error while applying delta (id = 4) during service initialization. Failed to insert entity (GID = 0x0000000500000002) into model. Unknown property id = 1518012141586613252 for entity (GID = 0x0000000500000002).
+7/21/2025 9:57:17 PM : Inserting entity with GID (000000010000000d).
+7/21/2025 9:57:17 PM : Inserting entity with GID (000000010000000e).
+7/21/2025 9:57:17 PM : Inserting entity with GID (000000010000000f).
+7/21/2025 9:57:17 PM : Inserting entity with GID (000000020000000d).
+7/21/2025 9:57:17 PM : Inserting entity with GID (000000020000000e).
+7/21/2025 9:57:17 PM : Inserting entity with GID (000000020000000f).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000500000003).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000600000001).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000700000001).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000400000001).
+7/21/2025 9:57:17 PM : Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x000000020000000d).
+7/21/2025 9:57:17 PM : Failed to insert entity (GID = 0x0000000400000001) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x000000020000000d).
+7/21/2025 9:57:17 PM : Error while applying delta (id = 5) during service initialization. Failed to insert entity (GID = 0x0000000400000001) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x000000020000000d).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000010).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000011).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000012).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000010).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000011).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000012).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000500000004).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000600000002).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000700000002).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000400000002).
+7/21/2025 9:57:17 PM : Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000010).
+7/21/2025 9:57:17 PM : Failed to insert entity (GID = 0x0000000400000002) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000010).
+7/21/2025 9:57:17 PM : Error while applying delta (id = 6) during service initialization. Failed to insert entity (GID = 0x0000000400000002) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000010).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000013).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000014).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000015).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000013).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000014).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000015).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000500000005).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000600000003).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000700000003).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000400000003).
+7/21/2025 9:57:17 PM : Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000013).
+7/21/2025 9:57:17 PM : Failed to insert entity (GID = 0x0000000400000003) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000013).
+7/21/2025 9:57:17 PM : Error while applying delta (id = 7) during service initialization. Failed to insert entity (GID = 0x0000000400000003) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000013).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000016).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000017).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000100000018).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000016).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000017).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000200000018).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000500000006).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000600000004).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000700000004).
+7/21/2025 9:57:17 PM : Inserting entity with GID (0000000400000004).
+7/21/2025 9:57:17 PM : Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000016).
+7/21/2025 9:57:17 PM : Failed to insert entity (GID = 0x0000000400000004) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000016).
+7/21/2025 9:57:17 PM : Error while applying delta (id = 8) during service initialization. Failed to insert entity (GID = 0x0000000400000004) into model. Can not add reference SEASON_DAY_TYPE_S_REF1 to entity (GID = 0x0000000200000016).
+7/21/2025 9:57:18 PM : The WCF service GenericDataAccess is ready.
+7/21/2025 9:57:18 PM : Endpoints:
+7/21/2025 9:57:18 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
+7/21/2025 9:57:18 PM : Connection string: ../NetworkModelData.data
+7/21/2025 9:57:18 PM : Trace level: Info
+7/21/2025 9:57:18 PM : The Network Model Service is started.
+7/21/2025 9:57:18 PM : Press <Enter> to stop the service.
+7/21/2025 9:57:24 PM : Applying  delta to network model.
+7/21/2025 9:57:24 PM : Inserting entity with GID (0000000100000019).
+7/21/2025 9:57:24 PM : Inserting entity with GID (000000010000001a).
+7/21/2025 9:57:24 PM : Inserting entity with GID (000000010000001b).
+7/21/2025 9:57:24 PM : Inserting entity with GID (0000000200000019).
+7/21/2025 9:57:24 PM : Inserting entity with GID (000000020000001a).
+7/21/2025 9:57:24 PM : Inserting entity with GID (000000020000001b).
+7/21/2025 9:57:24 PM : Inserting entity with GID (0000000500000007).
+7/21/2025 9:57:24 PM : Inserting entity with GID (0000000600000005).
+7/21/2025 9:57:24 PM : Inserting entity with GID (0000000700000005).
+7/21/2025 9:57:24 PM : Inserting entity with GID (0000000400000005).
+7/21/2025 9:57:31 PM : Inserting entity with GID (0000000400000006).
+7/21/2025 9:57:31 PM : Inserting entity with GID (0000000400000007).
+7/21/2025 9:57:31 PM : Inserting entity with GID (0000000300000003).
+7/21/2025 9:57:31 PM : Inserting entity with GID (0000000300000004).
+7/21/2025 9:57:31 PM : Applying delta to network model successfully finished.

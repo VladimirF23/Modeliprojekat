@@ -9,9 +9,9 @@ namespace FTN.Services.NetworkModelService.DataModel.Ja
 {
     public class Breaker : ProtectedSwitch
     {
-        private double inTransitTime;
+        private float inTransitTime;
 
-        public double InTransitTime { get => inTransitTime; set => inTransitTime = value; }
+        public float InTransitTime { get => inTransitTime; set => inTransitTime = value; }
 
         public Breaker(long globalId) : base(globalId)
         {
@@ -52,7 +52,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Ja
             switch (property.Id)
             {
                 case ModelCode.BREAKER_IN_TRANSIT_TIME:
-                    property.SetValue((double)inTransitTime);
+                    property.SetValue((inTransitTime));
                     break;
 
                 default:
