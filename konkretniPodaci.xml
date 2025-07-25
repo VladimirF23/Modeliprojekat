@@ -1,0 +1,194 @@
+
+<rdf:RDF 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	xmlns:cim="http://iec.ch/TC57/2010/CIM-schema-cim15#"
+	xmlns:ftn="http://www.ftnydro.com/CIM15/2010/extension#">
+
+	<!--Season x3-->
+	<!--DayType x3 -->
+	<!--Breaker x1-->
+	<!--LoadBreakSwitch x1-->
+	 <!--Recloser x1-->
+
+	<!-- SwitchSchedule x3-->
+	<!-- RegularTimePoint x2 -->
+
+	
+	<!--Season -->
+
+
+ 	<cim:Season rdf:ID="S0">
+		<cim:Season.endDate>2025-09-23T00:00:00Z</cim:Season.endDate>
+		<cim:Season.startDate>2025-06-21T00:00:00Z</cim:Season.startDate>
+		<cim:IdentifiedObject.aliasName>Summer 2025</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>S0</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Leto</cim:IdentifiedObject.name>
+	</cim:Season>
+	
+	<cim:Season rdf:ID="S1">
+		<cim:Season.endDate>2025-06-20T00:00:00Z</cim:Season.endDate>
+		<cim:Season.startDate>2025-03-20T00:00:00Z</cim:Season.startDate>
+		<cim:IdentifiedObject.aliasName>Spring 2025</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>S1</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Prolece</cim:IdentifiedObject.name>
+	</cim:Season>
+	
+	
+	<cim:Season rdf:ID="S2">
+		<cim:Season.endDate>2025-12-20T00:00:00Z</cim:Season.endDate>
+		<cim:Season.startDate>2025-09-24T00:00:00Z</cim:Season.startDate>
+		<cim:IdentifiedObject.aliasName>Autumn 2025</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>S2</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Jesen</cim:IdentifiedObject.name>
+	</cim:Season>
+	
+	
+	<!--DayType-->
+	
+	<cim:DayType rdf:ID="DT1">
+		<cim:IdentifiedObject.mRID>DT1</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Radni dan</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.aliasName>Weekday</cim:IdentifiedObject.aliasName>
+	</cim:DayType>
+	
+	<cim:DayType rdf:ID="DT2">
+		<cim:IdentifiedObject.mRID>DT2</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Praznik</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.aliasName>Holiday</cim:IdentifiedObject.aliasName>
+	</cim:DayType>
+	
+	<cim:DayType rdf:ID="DT3">
+		<cim:IdentifiedObject.mRID>DT3</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>Vikend</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.aliasName>Weekend</cim:IdentifiedObject.aliasName>
+	</cim:DayType>
+	
+	<!--Breaker x1-->
+
+	<cim:Breaker rdf:ID="BRK1">
+		<cim:IdentifiedObject.mRID>BRK1</cim:IdentifiedObject.mRID> 
+		<cim:IdentifiedObject.name>Breaker_10kV_MainFeeder</cim:IdentifiedObject.name> 		 <!-- Technical name for the breaker -->
+		<cim:IdentifiedObject.aliasName>Main Feeder Breaker</cim:IdentifiedObject.aliasName> <!-- Friendly or alternative name for display purposes -->
+		<cim:Breaker.inTransitTime>0.15</cim:Breaker.inTransitTime> 						 <!-- Time in seconds to open/close the breaker (transition delay) -->
+		<cim:ProtectedSwitch.breakingCapacity>25000</cim:ProtectedSwitch.breakingCapacity>   <!-- Max fault current it can safely interrupt (in Amps) -->
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen> 								 <!-- Indicates whether the breaker is normally open (false = normally closed) -->
+		<cim:Switch.ratedCurrent>630</cim:Switch.ratedCurrent> 								 <!-- Maximum continuous operating current (in Amps) -->
+		<cim:Switch.retained>true</cim:Switch.retained> 									 <!-- Whether the breaker is retained in planning/analysis models -->
+		<cim:Switch.switchOnCount>123</cim:Switch.switchOnCount> 							 <!-- Number of times the breaker has been switched ON -->
+		<cim:Switch.switchOnDate>2021-03-15T00:00:00Z</cim:Switch.switchOnDate>               <!-- Date when the breaker was last switched ON -->
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>                             <!-- Indicates if this is an aggregate of other equipment (false = standalone) -->
+		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>              <!-- Indicates if the breaker is normally in service -->
+	</cim:Breaker>
+	
+	<!-- LoadBreakSwitch -->
+
+	<cim:LoadBreakSwitch rdf:ID="LBS123">
+		<cim:IdentifiedObject.mRID>LBS123</cim:IdentifiedObject.mRID> 
+		<cim:IdentifiedObject.name>Main_Street_LoadBreakSwitch</cim:IdentifiedObject.name>    <!-- Human-readable name -->
+		<cim:IdentifiedObject.aliasName>Main Street LBS</cim:IdentifiedObject.aliasName> 	  <!-- Alternative name or alias -->
+		<cim:ProtectedSwitch.breakingCapacity>630</cim:ProtectedSwitch.breakingCapacity>      <!-- Max breaking capacity (A) -->
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen> 								  <!-- true if normally open, false if normally closed -->
+		<cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent> 								  <!-- Rated continuous current (A) -->
+		<cim:Switch.retained>true</cim:Switch.retained> 									  <!-- Retains state after power loss -->
+		<cim:Switch.switchOnCount>150</cim:Switch.switchOnCount> 							  <!-- Number of times switched on -->
+		<cim:Switch.switchOnDate>2024-07-15T14:30:00Z</cim:Switch.switchOnDate>               <!-- Last switch on date (UTC) -->
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate> 							  <!-- True if aggregates other equipment -->
+		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>               <!-- True if normally in service -->
+	</cim:LoadBreakSwitch>
+
+    <!--Recloser-->
+	<cim:Recloser rdf:ID="RCL1">
+		<cim:IdentifiedObject.mRID>RCL1</cim:IdentifiedObject.mRID> 						<!-- Unique ID for the recloser -->
+		<cim:IdentifiedObject.name>Recloser_10kV_LineA</cim:IdentifiedObject.name> 			<!-- Technical name for SCADA/GIS systems -->
+		<cim:IdentifiedObject.aliasName>Line A Recloser</cim:IdentifiedObject.aliasName> 	<!-- Friendly or human-readable label -->
+		<cim:ProtectedSwitch.breakingCapacity>16000</cim:ProtectedSwitch.breakingCapacity> 	<!-- Max interrupt capacity (Amps) -->
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen> 								<!-- Indicates it is normally closed -->
+		<cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent> 								<!-- Max continuous current (Amps) -->
+		<cim:Switch.retained>true</cim:Switch.retained> 								    <!-- True if the object should be retained in the model -->
+		<cim:Switch.switchOnCount>78</cim:Switch.switchOnCount> 					        <!-- Number of operations -->
+		<cim:Switch.switchOnDate>2023-07-10T00:00:00Z</cim:Switch.switchOnDate> 				<!-- Last operation or installation date -->
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate> 							<!-- Indicates it is not part of an aggregate asset -->
+		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService> 			<!-- Whether it is normally energized -->
+	</cim:Recloser>
+	
+
+	
+	
+	
+<!-- SwitchSchedule example 1: For Breaker BRK1 in Summer on Weekdays -->	
+<!-- SwitchSchedule -->
+	<cim:SwitchSchedule rdf:ID="SS1">
+		<cim:IdentifiedObject.name>Breaker Summer Weekday Schedule</cim:IdentifiedObject.name> 	      <!-- Descriptive name -->
+		<cim:IdentifiedObject.aliasName>BRK1_Summer_Weekday</cim:IdentifiedObject.aliasName> 	      <!-- Alias -->
+		<cim:IdentifiedObject.mRID>SS1</cim:IdentifiedObject.mRID> 								      <!-- Unique ID -->
+		<cim:SwitchSchedule.Switch rdf:resource="#BRK1"/> 										      <!-- Reference to the Breaker -->
+		<cim:SeasonDayTypeSchedule.DayType rdf:resource="#DT1"/> 									  <!-- Applies on Weekdays -->
+		<cim:SeasonDayTypeSchedule.Season rdf:resource="#S0"/> 										  <!-- Applies during Summer -->
+		<cim:BasicIntervalSchedule.startTime>08:00:00</cim:BasicIntervalSchedule.startTime> 		  <!-- Start time of the schedule interval -->
+		<cim:BasicIntervalSchedule.value1Multiplier>none</cim:BasicIntervalSchedule.value1Multiplier> <!-- Multiplier for the value1, example: none (no multiplier) -->
+		<cim:BasicIntervalSchedule.value1Unit>A</cim:BasicIntervalSchedule.value1Unit> 				  <!-- Unit for value1, example: Amperes (A) -->
+		
+		<cim:BasicIntervalSchedule.value2Multiplier>none</cim:BasicIntervalSchedule.value2Multiplier> <!-- Additional value multiplier and unit, e.g., for voltage or other -->
+		<cim:BasicIntervalSchedule.value2Unit>V</cim:BasicIntervalSchedule.value2Unit> 
+	</cim:SwitchSchedule>
+
+	<!-- SwitchSchedule example 2: For LoadBreakSwitch LBS123 in Spring on Holidays -->
+	<cim:SwitchSchedule rdf:ID="SS2">
+		<cim:IdentifiedObject.name>LoadBreakSwitch Spring Holiday Schedule</cim:IdentifiedObject.name> <!-- Descriptive name -->
+		<cim:IdentifiedObject.aliasName>LBS123_Spring_Holiday</cim:IdentifiedObject.aliasName> 		   <!-- Alias -->
+		<cim:IdentifiedObject.mRID>SS2</cim:IdentifiedObject.mRID> 									   <!-- Unique ID -->
+		<cim:SwitchSchedule.Switch rdf:resource="#LBS123"/> 										   <!-- Reference to the LoadBreakSwitch -->	
+		<cim:SeasonDayTypeSchedule.DayType rdf:resource="#DT2"/> 									   <!-- Applies on Holidays -->
+		<cim:SeasonDayTypeSchedule.Season rdf:resource="#S1"/> 										   <!-- Applies during Spring -->
+		<cim:BasicIntervalSchedule.startTime>10:00:00</cim:BasicIntervalSchedule.startTime> 		   <!-- Start time of the schedule interval -->
+		<cim:BasicIntervalSchedule.value1Multiplier>k</cim:BasicIntervalSchedule.value1Multiplier>     <!-- Multiplier for the value1, example: kilo (k) -->
+		<cim:BasicIntervalSchedule.value1Unit>A</cim:BasicIntervalSchedule.value1Unit> 				   <!-- Unit for value1, example: Amperes (A) -->
+		<cim:BasicIntervalSchedule.value2Multiplier>none</cim:BasicIntervalSchedule.value2Multiplier>  <!-- Additional value multiplier and unit -->
+		<cim:BasicIntervalSchedule.value2Unit>V</cim:BasicIntervalSchedule.value2Unit> 
+	</cim:SwitchSchedule>
+
+	<!-- SwitchSchedule example 3: For LoadBreakSwitch LBS123 in Summer on Weekend -->
+		<cim:SwitchSchedule rdf:ID="SS3">
+		<cim:IdentifiedObject.name>LoadBreakSwitch Summer Weekend Schedule</cim:IdentifiedObject.name> <!-- Descriptive name -->
+		<cim:IdentifiedObject.aliasName>LBS123_Summer_Weekend</cim:IdentifiedObject.aliasName> 		   <!-- Alias -->
+		<cim:IdentifiedObject.mRID>SS3</cim:IdentifiedObject.mRID> 								       <!-- Unique ID -->
+		
+		<cim:SwitchSchedule.Switch rdf:resource="#LBS123"/> 										   <!-- Reference to the LoadBreakSwitch -->
+		<cim:SeasonDayTypeSchedule.DayType rdf:resource="#DT3"/> 									   <!-- Applies on Weekend -->
+		<cim:SeasonDayTypeSchedule.Season rdf:resource="#S0"/> 									       <!-- Applies during Summer -->
+		<cim:BasicIntervalSchedule.startTime>09:00:00</cim:BasicIntervalSchedule.startTime> 		   <!-- Start time of schedule -->
+		<cim:BasicIntervalSchedule.value1Multiplier>none</cim:BasicIntervalSchedule.value1Multiplier>  <!-- Multiplier for value1 -->
+		<cim:BasicIntervalSchedule.value1Unit>A</cim:BasicIntervalSchedule.value1Unit>                 <!-- Unit for value1 -->
+		<cim:BasicIntervalSchedule.value2Multiplier>none</cim:BasicIntervalSchedule.value2Multiplier>  <!-- Multiplier for value2 -->
+		<cim:BasicIntervalSchedule.value2Unit>V</cim:BasicIntervalSchedule.value2Unit> 				   <!-- Unit for value2 -->
+	</cim:SwitchSchedule>
+	
+
+	<!-- RegularTimePoint example 1: linked to SwitchSchedule SS1 -->
+	<cim:RegularTimePoint rdf:ID="RTP1">
+		<cim:IdentifiedObject.mRID>RTP1</cim:IdentifiedObject.mRID> 									   <!-- Unique ID -->
+		<cim:IdentifiedObject.name>RTP for Breaker Summer Weekday</cim:IdentifiedObject.name> 			   <!-- Descriptive name -->
+		<cim:IdentifiedObject.aliasName>RTP_SS1</cim:IdentifiedObject.aliasName> 						   <!-- Alias -->
+		<cim:RegularTimePoint.IntervalSchedule rdf:resource="#SS1"/> 									   <!-- Reference to SwitchSchedule SS1 -->
+		<cim:RegularTimePoint.sequenceNumber>1</cim:RegularTimePoint.sequenceNumber> 					   <!-- Sequence in schedule -->
+		<cim:RegularTimePoint.value1>400</cim:RegularTimePoint.value1> 									   <!-- Example current value in A -->
+		<cim:RegularTimePoint.value2>11000</cim:RegularTimePoint.value2> 								   <!-- Example voltage value in V -->
+	</cim:RegularTimePoint>
+
+	<!-- RegularTimePoint example 2: linked to SwitchSchedule SS3 -->
+	<cim:RegularTimePoint rdf:ID="RTP2">
+		<cim:IdentifiedObject.mRID>RTP2</cim:IdentifiedObject.mRID> 								   <!-- Unique ID -->
+		<cim:IdentifiedObject.name>RTP for LoadBreakSwitch Summer Weekend</cim:IdentifiedObject.name>  <!-- Descriptive name -->
+		<cim:IdentifiedObject.aliasName>RTP_SS3</cim:IdentifiedObject.aliasName> 					   <!-- Alias -->
+		<cim:RegularTimePoint.IntervalSchedule rdf:resource="#SS3"/> 								   <!-- Reference to SwitchSchedule SS3 -->
+		<cim:RegularTimePoint.sequenceNumber>1</cim:RegularTimePoint.sequenceNumber> 			       <!-- Sequence in schedule -->
+		<cim:RegularTimePoint.value1>200</cim:RegularTimePoint.value1> 							       <!-- Example current value in A -->
+		<cim:RegularTimePoint.value2>11000</cim:RegularTimePoint.value2> 						       <!-- Example voltage value in V -->
+	</cim:RegularTimePoint>
+
+
+
+
+
+
+</rdf:RDF>

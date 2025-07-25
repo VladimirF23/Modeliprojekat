@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,31 +27,31 @@
       "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\gda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\common\\gda\\propertyvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\common\\gda\\propertyvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\gda\\propertyvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\common\\gda\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\common\\gda\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\gda\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\common\\gda\\resourcedescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\common\\gda\\resourcedescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\gda\\resourcedescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\common\\gda\\updateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\common\\gda\\updateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\gda\\updateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\common\\gda\\delta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\common\\gda\\delta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\gda\\delta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\common\\gda\\comparehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\common\\gda\\comparehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\gda\\comparehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\common\\gda\\association.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\common\\gda\\association.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\gda\\association.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -91,9 +91,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\cimadapter\\transformandloadreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\transformandloadreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\ui\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -115,8 +112,7 @@
               "RelativeToolTip": "Common\\GDA\\Association.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T18:17:41.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T18:17:41.681Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\UI.csproj",
               "RelativeToolTip": "UI\\UI.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-23T17:55:27.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T17:55:27.983Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "UI\\GDA.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAAwA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T21:58:02.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T21:58:02.446Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "Common\\ModelResourcesDesc.cs",
               "ViewState": "AQIAAPgCAAAAAAAAAAA7wBQDAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T17:45:00.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T17:45:00.71Z"
             },
             {
               "$type": "Document",
@@ -176,7 +169,7 @@
               "RelativeDocumentMoniker": "UI\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\MainWindow.xaml.cs",
               "RelativeToolTip": "UI\\MainWindow.xaml.cs",
-              "ViewState": "AQIAANgAAAAAAAAAAADwvycBAAANAAAA",
+              "ViewState": "AQIAACkBAAAAAAAAAAAqwCcBAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T14:52:02.092Z",
               "EditorCaption": ""
@@ -191,8 +184,7 @@
               "RelativeToolTip": "Common\\GDA\\PropertyValue.cs",
               "ViewState": "AQIAAEkAAAAAAAAAAAA7wFkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T18:17:54.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T18:17:54.328Z"
             },
             {
               "$type": "Document",
@@ -204,8 +196,7 @@
               "RelativeToolTip": "Common\\GDA\\CompareHelper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T18:17:42.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T18:17:42.772Z"
             },
             {
               "$type": "Document",
@@ -217,8 +208,7 @@
               "RelativeToolTip": "Common\\GDA\\Delta.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T18:17:44.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T18:17:44.125Z"
             },
             {
               "$type": "Document",
@@ -230,8 +220,7 @@
               "RelativeToolTip": "Common\\ModelDefines.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T17:44:59.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T17:44:59.11Z"
             },
             {
               "$type": "Document",
@@ -243,8 +232,7 @@
               "RelativeToolTip": "Common\\GDA\\Property.cs",
               "ViewState": "AQIAAMIAAAAAAAAAAAAkwN4AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T18:17:46.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T18:17:46.054Z"
             },
             {
               "$type": "Document",
@@ -256,8 +244,7 @@
               "RelativeToolTip": "UI\\StringHelper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T17:37:43.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T17:37:43.22Z"
             },
             {
               "$type": "Document",
@@ -269,8 +256,7 @@
               "RelativeToolTip": "UI\\App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T17:55:59.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T17:55:59.356Z"
             },
             {
               "$type": "Document",
@@ -282,8 +268,7 @@
               "RelativeToolTip": "Common\\GDA\\ResourceDescription.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAA7wEMAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T18:17:49.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T18:17:49.586Z"
             },
             {
               "$type": "Document",
@@ -295,8 +280,7 @@
               "RelativeToolTip": "Common\\GDA\\UpdateResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T18:17:51.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T18:17:51.682Z"
             },
             {
               "$type": "Document",
@@ -343,8 +327,7 @@
               "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\App.xaml",
               "RelativeToolTip": "UI\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-23T17:46:05.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T17:46:05.321Z"
             },
             {
               "$type": "Document",
@@ -356,8 +339,7 @@
               "RelativeToolTip": "UI\\App.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-07-23T17:46:06.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T17:46:06.977Z"
             },
             {
               "$type": "Document",
@@ -368,8 +350,7 @@
               "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\MainWindow.xaml",
               "RelativeToolTip": "UI\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-22T14:52:03.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T14:52:03.651Z"
             },
             {
               "$type": "Document",

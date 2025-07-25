@@ -436,3 +436,59 @@ Exception rethrown at [0]:
 7/23/2025 8:46:06 PM : Getting values  successfully finished.
 7/23/2025 8:46:06 PM : Getting related values method started.
 7/23/2025 8:46:06 PM : Getting related values successfully finished.
+7/23/2025 9:03:04 PM : SEASON
+7/23/2025 9:03:04 PM : Getting extent values method started.
+7/23/2025 9:03:05 PM : Getting extent values  successfully finished.
+7/23/2025 9:03:05 PM : Number of results from GetExtentValues : 39
+7/23/2025 9:03:05 PM : DAYTYPE
+7/23/2025 9:03:05 PM : Getting extent values method started.
+7/23/2025 9:03:05 PM : Getting extent values  successfully finished.
+7/23/2025 9:03:05 PM : Number of results from GetExtentValues : 39
+7/23/2025 9:03:05 PM : REGULAR_TIME_POINT
+7/23/2025 9:03:05 PM : Getting extent values method started.
+7/23/2025 9:03:05 PM : Getting extent values  successfully finished.
+7/23/2025 9:03:05 PM : Number of results from GetExtentValues : 12
+7/23/2025 9:03:05 PM : SWITCH_SCHEDULE
+7/23/2025 9:03:05 PM : Getting extent values method started.
+7/23/2025 9:03:05 PM : Getting extent values  successfully finished.
+7/23/2025 9:03:05 PM : Number of results from GetExtentValues : 19
+7/23/2025 9:03:05 PM : BREAKER
+7/23/2025 9:03:05 PM : Getting extent values method started.
+7/23/2025 9:03:05 PM : Getting extent values  successfully finished.
+7/23/2025 9:03:05 PM : Number of results from GetExtentValues : 11
+7/23/2025 9:03:05 PM : RECLOSER
+7/23/2025 9:03:05 PM : Getting extent values method started.
+7/23/2025 9:03:05 PM : Getting extent values  successfully finished.
+7/23/2025 9:03:05 PM : Number of results from GetExtentValues : 9
+7/23/2025 9:03:05 PM : LOAD_BREAK_SWITCH
+7/23/2025 9:03:05 PM : Getting extent values method started.
+7/23/2025 9:03:05 PM : Getting extent values  successfully finished.
+7/23/2025 9:03:05 PM : Number of results from GetExtentValues : 9
+7/23/2025 9:03:11 PM : Getting values...
+7/23/2025 9:03:11 PM : Getting values  successfully finished.
+7/23/2025 9:03:20 PM : Getting values...
+7/23/2025 9:03:20 PM : Getting values  successfully finished.
+7/23/2025 9:03:34 PM : Getting extent values method started.
+7/23/2025 9:03:34 PM : Getting extent values  successfully finished.
+7/23/2025 9:03:34 PM : Number of results from GetExtentValues : 9
+7/23/2025 9:03:52 PM : Getting extent values method started.
+7/23/2025 9:03:52 PM : Getting extent values  successfully finished.
+7/23/2025 9:03:52 PM : Number of results from GetExtentValues : 19
+7/23/2025 9:04:54 PM : Getting values...
+7/23/2025 9:04:54 PM : Getting values  successfully finished.
+7/23/2025 9:04:59 PM : Getting values...
+7/23/2025 9:04:59 PM : Getting values  successfully finished.
+7/23/2025 9:04:59 PM : Getting related values method started.
+7/23/2025 9:04:59 PM : Getting related values successfully finished.
+7/23/2025 9:05:24 PM : Getting extent values method started.
+7/23/2025 9:05:24 PM : Getting extent values  successfully finished.
+7/23/2025 9:05:24 PM : Number of results from GetExtentValues : 39
+7/23/2025 9:05:32 PM : Getting extent values method started.
+7/23/2025 9:05:32 PM : Getting extent values  successfully finished.
+7/23/2025 9:05:32 PM : Number of results from GetExtentValues : 12
+7/23/2025 9:06:16 PM : Getting values...
+7/23/2025 9:06:16 PM : Getting values  successfully finished.
+7/23/2025 9:06:23 PM : Getting values...
+7/23/2025 9:06:23 PM : Getting values  successfully finished.
+7/23/2025 9:06:23 PM : Getting related values method started.
+7/23/2025 9:06:23 PM : Getting related values successfully finished.
