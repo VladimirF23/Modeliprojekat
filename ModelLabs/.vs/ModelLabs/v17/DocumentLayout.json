@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\datamodel\\ja\\season.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ja\\season.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -100,11 +104,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
+              "Title": "Season.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\Season.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Ja\\Season.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\Season.cs",
+              "RelativeToolTip": "NetworkModelService\\DataModel\\Ja\\Season.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T16:08:46.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Association.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\Association.cs",
               "RelativeDocumentMoniker": "Common\\GDA\\Association.cs",
@@ -116,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "UI",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\UI.csproj",
               "RelativeDocumentMoniker": "UI\\UI.csproj",
@@ -127,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMProfileCreator\\Program.cs",
               "RelativeDocumentMoniker": "CIMProfileCreator\\Program.cs",
@@ -139,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GDA.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\GDA.cs",
               "RelativeDocumentMoniker": "UI\\GDA.cs",
@@ -151,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ModelResourcesDesc.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelResourcesDesc.cs",
               "RelativeDocumentMoniker": "Common\\ModelResourcesDesc.cs",
@@ -163,20 +180,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "UI\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\MainWindow.xaml.cs",
               "RelativeToolTip": "UI\\MainWindow.xaml.cs",
-              "ViewState": "AQIAACkBAAAAAAAAAAAqwCcBAAANAAAA",
+              "ViewState": "AQIAACMBAAAAAAAAAAAqwCcBAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T14:52:02.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PropertyValue.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\PropertyValue.cs",
               "RelativeDocumentMoniker": "Common\\GDA\\PropertyValue.cs",
@@ -188,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CompareHelper.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\CompareHelper.cs",
               "RelativeDocumentMoniker": "Common\\GDA\\CompareHelper.cs",
@@ -200,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Delta.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\Delta.cs",
               "RelativeDocumentMoniker": "Common\\GDA\\Delta.cs",
@@ -212,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ModelDefines.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelDefines.cs",
               "RelativeDocumentMoniker": "Common\\ModelDefines.cs",
@@ -224,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Property.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\Property.cs",
               "RelativeDocumentMoniker": "Common\\GDA\\Property.cs",
@@ -236,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "StringHelper.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\StringHelper.cs",
               "RelativeDocumentMoniker": "UI\\StringHelper.cs",
@@ -248,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\App.xaml.cs",
               "RelativeDocumentMoniker": "UI\\App.xaml.cs",
@@ -260,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ResourceDescription.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\ResourceDescription.cs",
               "RelativeDocumentMoniker": "Common\\GDA\\ResourceDescription.cs",
@@ -272,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UpdateResult.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\UpdateResult.cs",
               "RelativeDocumentMoniker": "Common\\GDA\\UpdateResult.cs",
@@ -284,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\ModelLabsApp\\Program.cs",
               "RelativeDocumentMoniker": "ModelLabsApp\\Program.cs",
@@ -296,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CIMAdapter.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMAdapter\\CIMAdapter.cs",
               "RelativeDocumentMoniker": "CIMAdapter\\CIMAdapter.cs",
@@ -308,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "TransformAndLoadReport.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMAdapter\\TransformAndLoadReport.cs",
               "RelativeDocumentMoniker": "CIMAdapter\\TransformAndLoadReport.cs",
@@ -320,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\App.xaml",
               "RelativeDocumentMoniker": "UI\\App.xaml",
@@ -331,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\App.config",
               "RelativeDocumentMoniker": "UI\\App.config",
@@ -343,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "UI\\MainWindow.xaml",
@@ -354,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vladi\\AppData\\Local\\Temp\\.vsdbgsrc\\f696bbaf62e093d640eb06e54cf584f1413a7a3ddc293db43bb5e910722eafa3\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\f696bbaf62e093d640eb06e54cf584f1413a7a3ddc293db43bb5e910722eafa3\\Program.cs",
@@ -366,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Settings.settings",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\Properties\\Settings.settings",
               "RelativeDocumentMoniker": "UI\\Properties\\Settings.settings",
