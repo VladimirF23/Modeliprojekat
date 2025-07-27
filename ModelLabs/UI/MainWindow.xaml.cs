@@ -26,7 +26,7 @@ namespace UI
         private GDA Gda;                                                                                        //instanca GDA service client-a
         private Dictionary<ModelCode, string> propertiesDesc = new Dictionary<ModelCode, string>();
         private Dictionary<ModelCode, string> propertiesDescRelated = new Dictionary<ModelCode, string>();
-        private Dictionary<ModelCode, string> propertiesDescExtended = new Dictionary<ModelCode, string>();
+        private Dictionary<ModelCode, string> propertiesDescExtended = new Dictionary<ModelCode, string>();     // Svi propertiji za selektovan DMStype u Extent tabu, i onda korisnik bira preko checkbox-a koje propertije zeli da pokaze za DMS-ove
 
         private ModelResourcesDesc modelResourcesDesc = new ModelResourcesDesc();                               // Helper klasa za mapiranje DMSType enuma na ModelCode-ove, za opis modela
 
@@ -233,12 +233,15 @@ namespace UI
 
          
          */
+
+        //Aktivira se u ExtenValues tab-u kada u comboBoxu user uzme drugi DMSType
         private void DMSTypes_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            selectedDMSType = (long)DMSTypes.SelectedItem;
-            PopulateProperties(PropertiesExtent, propertiesDescExtended, ModelCodeHelper.GetTypeFromModelCode((ModelCode)selectedDMSType));
+            selectedDMSType = (long)DMSTypes.SelectedItem;                                                                                      // pretvori selectovan DMS u ModelCode enum
+            PopulateProperties(PropertiesExtent, propertiesDescExtended, ModelCodeHelper.GetTypeFromModelCode((ModelCode)selectedDMSType));     // Pozove PopulateProperties da bi popunio one chechbox-e za propertije koje zelimo da pokazemo od ovih DMStipova na Exten Tab-u
         }
 
+        //Uzme Chekirane propery koje je korisnik chekirao (check-uje pa pritisne button getExtenValues) i onda se ti preprtiji na desnoj strani prikauzju za sve Klase (DMS izabran)
         private void Button_Click_GetExtentValues(object sender, RoutedEventArgs e)
         {
             if (selectedDMSType == -1)
@@ -276,6 +279,7 @@ namespace UI
             ValuesExtent.AppendText(sb.ToString());
         }
 
+        //imamo Listu svih GID-ova i onda kada uzmemo drugi iz te liste samo izvrsimo ovde promenu na taj novi i ucitamo propert-eje za taj novi Entitet
         private void RelatedGIDs_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             RelationalProps.Items.Clear();
@@ -292,10 +296,10 @@ namespace UI
                 if (prop.Type != PropertyType.Reference && prop.Type != PropertyType.ReferenceVector)
                     continue;
 
-                RelationalProps.Items.Add(property);
+                RelationalProps.Items.Add(property);                                                    //dodamo reference Proprty u Refrences opadajucem combo box-u
             }
         }
-
+        //Kada izaberemo refrenceProperty npr Season ima refrence na SeasonDayTypeSchedule i Populatujemo Propertije za 
         private void RelationalProps_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (RelationalProps.SelectedItem == null)
@@ -305,14 +309,16 @@ namespace UI
 
             selectedRelatedProperty = (long)RelationalProps.SelectedItem;
 
-            var targetEntity = GetTypeFromReferenceModelCode(selectedRelatedProperty);
-
+            var targetEntity = GetTypeFromReferenceModelCode(selectedRelatedProperty);          //da dobijemo entitet kog Season referencuje (SeasonDayTypeSchedule ...-> breaker koji se aktivirao u tom season-u)
+                                                                                                // Moze i PREKO SWTICHSCHEDUL-a (pogledaj nasledjivanja i veze) da dodjes do Switch-a koji je aktivirao switch schedule, da dodjes do Season-a kad se desio
+                                                                                                // i da dodjes do DayType-a, i to sve preko reference polja (u smislu kao Kom season-u switchschedule pripada onaj long id sto on sadrzi) i mozes preko Season-a da dodjes do svih switcheva koji se se desili tog GOD DOBA
+                                                                                                // to je ova dole funkcija definisana
             RelationalTypes.Items.Add(targetEntity);
 
-            PopulateProperties(PropertiesRelated, propertiesDescRelated, targetEntity);
+            PopulateProperties(PropertiesRelated, propertiesDescRelated, targetEntity);         // Populatujemo propertije za refrencovan entitet
         }
 
-
+        //Uzima DMS tip od refrencovanog entiteta (SwitchDayTypeSchedula)
         private DMSType GetTypeFromReferenceModelCode(long modelCode)
         {
             var rd = Gda.GetValues(selectedGIDRelated, new List<ModelCode>() { (ModelCode)modelCode });
@@ -335,13 +341,13 @@ namespace UI
             var targetEntity = (DMSType)ModelCodeHelper.ExtractTypeFromGlobalId(gid);
             return targetEntity;
         }
-
+        // slicno kao Button_Click_GetExtentValues Ali sad samo za RELATETEDValues
         private void Button_Click_GetRelatedValues(object sender, RoutedEventArgs e)
         {
             if (selectedRelatedProperty == -1)
                 return;
 
-            List<ModelCode> selectedProperties = new List<ModelCode>();
+            List<ModelCode> selectedProperties = new List<ModelCode>();                 //kolektujemo selektovane propertije za related entitete
 
             foreach (var child in PropertiesRelated.Children)
             {
@@ -356,20 +362,30 @@ namespace UI
                     }
                 }
             }
-
+            //preperaujemo output buffer za UI
             StringBuilder sb = new StringBuilder();
             sb.Append("Returned entities" + Environment.NewLine + Environment.NewLine);
 
-            // Property is of reference type, but value not set so skip it.
+            // proverimo da li je setovan  REFERENCE PROPERTY ako nije (izlazimo i ostavljamo DMSTYPE.MASK_TYPE)
             var type = GetTypeFromReferenceModelCode(selectedRelatedProperty);
             if (type == DMSType.MASK_TYPE)
                 return;
 
-            var association = new Association((ModelCode)selectedRelatedProperty, modelResourcesDesc.GetModelCodeFromType(type));
-            List<long> gids = Gda.GetRelatedValues(selectedGIDRelated, selectedProperties, association, sb);
+            var association = new Association((ModelCode)selectedRelatedProperty, modelResourcesDesc.GetModelCodeFromType(type));  //kreira asocijaciju tip veze, selectedRelaterProperty tipa SwitchSchedule.Season (.Season ne postoji vec ja imam neki svoj naziv ovo samo zbog jednostavnosti), target Type Season 
+                                                                                                                                   //Ovo govori GDA: "Pronadji Sve Entitete ovog tipa koji su povezani sa selektovanim entitetom preko ovog PROPERTY-a."
+
+            List<long> gids = Gda.GetRelatedValues(selectedGIDRelated, selectedProperties, association, sb);                         // 
+
+            //selectedGIDRelated -> SwitchSchedule
+            //selectedProperties -> koje propertije od related entiteta zelimo da prikazemo
+            //association        -> opisuje vezu
+            //sb                 -> gde ce rezultati biti napisani
+            //GetRelatedValues   -> Vraca listu GID-ova od related entiteta
+
+
 
             ValuesRelated.Clear();
-            ValuesRelated.AppendText(sb.ToString());
+            ValuesRelated.AppendText(sb.ToString());        //displejujemo sve relatovane entitete i njihove selektovane propertije
         }
     }
 }

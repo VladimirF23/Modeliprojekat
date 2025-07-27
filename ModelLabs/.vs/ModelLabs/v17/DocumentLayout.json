@@ -3,98 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\datamodel\\ja\\season.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ja\\season.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\ui\\stringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\stringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\ui\\gda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\gda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\common\\gda\\propertyvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\gda\\propertyvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\common\\gda\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\gda\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\common\\gda\\resourcedescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\gda\\resourcedescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\common\\gda\\updateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\gda\\updateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\common\\gda\\delta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\gda\\delta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\common\\gda\\comparehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\gda\\comparehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\common\\gda\\association.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\gda\\association.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{B726FB71-D295-41EE-9644-B2B0B1BC8911}|ServiceContracts\\NetworkModelQueryContract\\NetworkModelGDAContract.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\servicecontracts\\networkmodelquerycontract\\inetworkmodelgdacontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B726FB71-D295-41EE-9644-B2B0B1BC8911}|ServiceContracts\\NetworkModelQueryContract\\NetworkModelGDAContract.csproj|solutionrelative:servicecontracts\\networkmodelquerycontract\\inetworkmodelgdacontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|UI||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\networkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|solutionrelative:networkmodelservice\\networkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\ui\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
-      "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\ui\\gda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\gda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D660EFC7-B9EA-44B3-8C7C-3A9435EBA87B}|UI\\UI.csproj|solutionrelative:ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05FA2F21-D4DE-4F42-8D8F-AC79993394F6}|CIMProfileCreator\\CIMProfileCreator.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\cimprofilecreator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05FA2F21-D4DE-4F42-8D8F-AC79993394F6}|CIMProfileCreator\\CIMProfileCreator.csproj|solutionrelative:cimprofilecreator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\common\\modelcodehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modelcodehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DD11384-2CC1-4EE9-9F4A-02B6FE8759C0}|ModelLabsApp\\ModelLabsApp.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\modellabsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DD11384-2CC1-4EE9-9F4A-02B6FE8759C0}|ModelLabsApp\\ModelLabsApp.csproj|solutionrelative:modellabsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\common\\enumdescs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\enumdescs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vladi\\AppData\\Local\\Temp\\.vsdbgsrc\\f696bbaf62e093d640eb06e54cf584f1413a7a3ddc293db43bb5e910722eafa3\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|solutionrelative:networkmodelservice\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\cimadapter\\cimadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\cimadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\gda\\resourceiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|solutionrelative:networkmodelservice\\gda\\resourceiterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\cimadapter\\transformandloadreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\transformandloadreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\gda\\genericdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|solutionrelative:networkmodelservice\\gda\\genericdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E112FFCC-BD88-4056-99E1-0991A0E82588}|NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\NetworkModelServiceSelfHost.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\networkmodelservice\\servicehost\\networkmodelserviceselfhost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E112FFCC-BD88-4056-99E1-0991A0E82588}|NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\NetworkModelServiceSelfHost.csproj|solutionrelative:networkmodelservice\\servicehost\\networkmodelserviceselfhost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|c:\\users\\vladi\\onedrive\\desktop\\mp\\projekat\\modellabsprojekat\\modeliprojekat\\modellabs\\cimadapter\\importer\\powertransformerconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\importer\\powertransformerconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -104,293 +62,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Season.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\Season.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Ja\\Season.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\DataModel\\Ja\\Season.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\Ja\\Season.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "INetworkModelGDAContract.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\ServiceContracts\\NetworkModelQueryContract\\INetworkModelGDAContract.cs",
+              "RelativeDocumentMoniker": "ServiceContracts\\NetworkModelQueryContract\\INetworkModelGDAContract.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\ServiceContracts\\NetworkModelQueryContract\\INetworkModelGDAContract.cs",
+              "RelativeToolTip": "ServiceContracts\\NetworkModelQueryContract\\INetworkModelGDAContract.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAcwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T16:08:46.31Z",
+              "WhenOpened": "2025-07-27T11:26:15.423Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Association.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\Association.cs",
-              "RelativeDocumentMoniker": "Common\\GDA\\Association.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\Association.cs",
-              "RelativeToolTip": "Common\\GDA\\Association.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T18:17:41.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UI",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\UI.csproj",
-              "RelativeDocumentMoniker": "UI\\UI.csproj",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\UI.csproj",
-              "RelativeToolTip": "UI\\UI.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-23T17:55:27.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMProfileCreator\\Program.cs",
-              "RelativeDocumentMoniker": "CIMProfileCreator\\Program.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMProfileCreator\\Program.cs",
-              "RelativeToolTip": "CIMProfileCreator\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T17:33:18.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GDA.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\GDA.cs",
-              "RelativeDocumentMoniker": "UI\\GDA.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\GDA.cs",
-              "RelativeToolTip": "UI\\GDA.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAwA4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T21:58:02.446Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ModelResourcesDesc.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelResourcesDesc.cs",
-              "RelativeDocumentMoniker": "Common\\ModelResourcesDesc.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelResourcesDesc.cs",
-              "RelativeToolTip": "Common\\ModelResourcesDesc.cs",
-              "ViewState": "AQIAAPgCAAAAAAAAAAA7wBQDAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T17:45:00.71Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "UI\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\MainWindow.xaml.cs",
-              "RelativeToolTip": "UI\\MainWindow.xaml.cs",
-              "ViewState": "AQIAACMBAAAAAAAAAAAqwCcBAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T14:52:02.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PropertyValue.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\PropertyValue.cs",
-              "RelativeDocumentMoniker": "Common\\GDA\\PropertyValue.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\PropertyValue.cs",
-              "RelativeToolTip": "Common\\GDA\\PropertyValue.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAA7wFkAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T18:17:54.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CompareHelper.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\CompareHelper.cs",
-              "RelativeDocumentMoniker": "Common\\GDA\\CompareHelper.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\CompareHelper.cs",
-              "RelativeToolTip": "Common\\GDA\\CompareHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T18:17:42.772Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Delta.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\Delta.cs",
-              "RelativeDocumentMoniker": "Common\\GDA\\Delta.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\Delta.cs",
-              "RelativeToolTip": "Common\\GDA\\Delta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T18:17:44.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ModelDefines.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelDefines.cs",
-              "RelativeDocumentMoniker": "Common\\ModelDefines.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelDefines.cs",
-              "RelativeToolTip": "Common\\ModelDefines.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T17:44:59.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Property.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\Property.cs",
-              "RelativeDocumentMoniker": "Common\\GDA\\Property.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\Property.cs",
-              "RelativeToolTip": "Common\\GDA\\Property.cs",
-              "ViewState": "AQIAAMIAAAAAAAAAAAAkwN4AAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T18:17:46.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StringHelper.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\StringHelper.cs",
-              "RelativeDocumentMoniker": "UI\\StringHelper.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\StringHelper.cs",
-              "RelativeToolTip": "UI\\StringHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T17:37:43.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\App.xaml.cs",
-              "RelativeDocumentMoniker": "UI\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\App.xaml.cs",
-              "RelativeToolTip": "UI\\App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T17:55:59.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ResourceDescription.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\ResourceDescription.cs",
-              "RelativeDocumentMoniker": "Common\\GDA\\ResourceDescription.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\ResourceDescription.cs",
-              "RelativeToolTip": "Common\\GDA\\ResourceDescription.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAA7wEMAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T18:17:49.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UpdateResult.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\UpdateResult.cs",
-              "RelativeDocumentMoniker": "Common\\GDA\\UpdateResult.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\GDA\\UpdateResult.cs",
-              "RelativeToolTip": "Common\\GDA\\UpdateResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T18:17:51.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\ModelLabsApp\\Program.cs",
-              "RelativeDocumentMoniker": "ModelLabsApp\\Program.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\ModelLabsApp\\Program.cs",
-              "RelativeToolTip": "ModelLabsApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T17:33:18.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CIMAdapter.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMAdapter\\CIMAdapter.cs",
-              "RelativeDocumentMoniker": "CIMAdapter\\CIMAdapter.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMAdapter\\CIMAdapter.cs",
-              "RelativeToolTip": "CIMAdapter\\CIMAdapter.cs",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAmwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T14:38:27.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "TransformAndLoadReport.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMAdapter\\TransformAndLoadReport.cs",
-              "RelativeDocumentMoniker": "CIMAdapter\\TransformAndLoadReport.cs",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMAdapter\\TransformAndLoadReport.cs",
-              "RelativeToolTip": "CIMAdapter\\TransformAndLoadReport.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T14:38:25.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\App.xaml",
-              "RelativeDocumentMoniker": "UI\\App.xaml",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\App.xaml",
-              "RelativeToolTip": "UI\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-23T17:46:05.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\App.config",
-              "RelativeDocumentMoniker": "UI\\App.config",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\App.config",
-              "RelativeToolTip": "UI\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-07-23T17:46:06.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "UI\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\MainWindow.xaml",
               "RelativeToolTip": "UI\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-22T14:52:03.651Z"
+              "WhenOpened": "2025-07-27T10:48:22.971Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vladi\\AppData\\Local\\Temp\\.vsdbgsrc\\f696bbaf62e093d640eb06e54cf584f1413a7a3ddc293db43bb5e910722eafa3\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\f696bbaf62e093d640eb06e54cf584f1413a7a3ddc293db43bb5e910722eafa3\\Program.cs",
-              "ToolTip": "C:\\Users\\vladi\\AppData\\Local\\Temp\\.vsdbgsrc\\f696bbaf62e093d640eb06e54cf584f1413a7a3ddc293db43bb5e910722eafa3\\Program.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\f696bbaf62e093d640eb06e54cf584f1413a7a3ddc293db43bb5e910722eafa3\\Program.cs [Read Only]",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAEEAAAADAAAA",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "UI\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAOMAAAAAAAAAAAAIwP8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T17:33:18.112Z"
+              "WhenOpened": "2025-07-27T10:41:19.346Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Settings.settings",
-              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\Properties\\Settings.settings",
-              "RelativeDocumentMoniker": "UI\\Properties\\Settings.settings",
-              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\Properties\\Settings.settings",
-              "RelativeToolTip": "UI\\Properties\\Settings.settings",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2025-07-23T17:54:04.567Z"
+              "DocumentIndex": 4,
+              "Title": "GDA.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\GDA.cs",
+              "RelativeDocumentMoniker": "UI\\GDA.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\UI\\GDA.cs",
+              "RelativeToolTip": "UI\\GDA.cs",
+              "ViewState": "AQIAALgAAAAAAAAAAAD4v9EAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T10:40:08.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ModelCodeHelper.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelCodeHelper.cs",
+              "RelativeDocumentMoniker": "Common\\ModelCodeHelper.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelCodeHelper.cs",
+              "RelativeToolTip": "Common\\ModelCodeHelper.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T10:39:17.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModelDefines.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelDefines.cs",
+              "RelativeDocumentMoniker": "Common\\ModelDefines.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\ModelDefines.cs",
+              "RelativeToolTip": "Common\\ModelDefines.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T10:39:00.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnumDescs.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\EnumDescs.cs",
+              "RelativeDocumentMoniker": "Common\\EnumDescs.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\Common\\EnumDescs.cs",
+              "RelativeToolTip": "Common\\EnumDescs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T10:38:59.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NetworkModel.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\NetworkModel.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\NetworkModel.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\NetworkModel.cs",
+              "RelativeToolTip": "NetworkModelService\\NetworkModel.cs",
+              "ViewState": "AQIAAJkCAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T10:37:52.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Container.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\Container.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\Container.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\Container.cs",
+              "RelativeToolTip": "NetworkModelService\\Container.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T10:37:51.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ResourceIterator.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\GDA\\ResourceIterator.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\GDA\\ResourceIterator.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\GDA\\ResourceIterator.cs",
+              "RelativeToolTip": "NetworkModelService\\GDA\\ResourceIterator.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T10:37:41.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenericDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\GDA\\GenericDataAccess.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\GDA\\GenericDataAccess.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\GDA\\GenericDataAccess.cs",
+              "RelativeToolTip": "NetworkModelService\\GDA\\GenericDataAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T10:37:40.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\Program.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\Program.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\Program.cs",
+              "RelativeToolTip": "NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T10:36:21.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PowerTransformerConverter.cs",
+              "DocumentMoniker": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerConverter.cs",
+              "RelativeDocumentMoniker": "CIMAdapter\\Importer\\PowerTransformerConverter.cs",
+              "ToolTip": "C:\\Users\\vladi\\OneDrive\\Desktop\\MP\\Projekat\\ModelLabsProjekat\\Modeliprojekat\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerConverter.cs",
+              "RelativeToolTip": "CIMAdapter\\Importer\\PowerTransformerConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T19:20:57.833Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -111,7 +111,7 @@
             <Property id="IDOBJ_MRID" value="SS1" />
             <Property id="IDOBJ_NAME" value="Breaker Summer Weekday Schedule" />
             <Property id="IDOBJ_ALIASNAME" value="BRK1_Summer_Weekday" />
-            <Property id="BASIC_IS_STARTIME" value="638891136000000000" />
+            <Property id="BASIC_IS_STARTIME" value="638892000000000000" />
             <Property id="BASIC_IS_VALUE1_MULTIPLIER" value="none" />
             <Property id="BASIC_IS_VALUE1_UNIT" value="A" />
             <Property id="BASIC_IS_VALUE2_MULTIPLIER" value="none" />
@@ -127,7 +127,7 @@
             <Property id="IDOBJ_MRID" value="SS2" />
             <Property id="IDOBJ_NAME" value="LoadBreakSwitch Spring Holiday Schedule" />
             <Property id="IDOBJ_ALIASNAME" value="LBS123_Spring_Holiday" />
-            <Property id="BASIC_IS_STARTIME" value="638891208000000000" />
+            <Property id="BASIC_IS_STARTIME" value="638892072000000000" />
             <Property id="BASIC_IS_VALUE1_MULTIPLIER" value="k" />
             <Property id="BASIC_IS_VALUE1_UNIT" value="A" />
             <Property id="BASIC_IS_VALUE2_MULTIPLIER" value="none" />
@@ -143,7 +143,7 @@
             <Property id="IDOBJ_MRID" value="SS3" />
             <Property id="IDOBJ_NAME" value="LoadBreakSwitch Summer Weekend Schedule" />
             <Property id="IDOBJ_ALIASNAME" value="LBS123_Summer_Weekend" />
-            <Property id="BASIC_IS_STARTIME" value="638891172000000000" />
+            <Property id="BASIC_IS_STARTIME" value="638892036000000000" />
             <Property id="BASIC_IS_VALUE1_MULTIPLIER" value="none" />
             <Property id="BASIC_IS_VALUE1_UNIT" value="A" />
             <Property id="BASIC_IS_VALUE2_MULTIPLIER" value="none" />
